@@ -3,7 +3,103 @@
   "token": "nacho",
   "exchange": "gate",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:07:52.818033"
+  "count": 8,
+  "data": [
+    {
+      "last": 1.315e-05,
+      "bid": 1.309e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 50639.29379721,
+      "change": 1.09539865133e-07,
+      "percentage": 0.84,
+      "timestamp": 1766866024
+    },
+    {
+      "last": 1.311e-05,
+      "bid": 1.311e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 50743.582531722,
+      "change": 1.59293687643e-07,
+      "percentage": 1.23,
+      "timestamp": 1766866055
+    },
+    {
+      "last": 1.312e-05,
+      "bid": 1.311e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 50818.524301373,
+      "change": 1.299009901e-07,
+      "percentage": 1.0,
+      "timestamp": 1766866085
+    },
+    {
+      "last": 1.308e-05,
+      "bid": 1.308e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 50937.106662921,
+      "change": 8.9633528653e-08,
+      "percentage": 0.69,
+      "timestamp": 1766866115
+    },
+    {
+      "last": 1.308e-05,
+      "bid": 1.308e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 50986.053465472,
+      "change": 9.9946412623e-08,
+      "percentage": 0.77,
+      "timestamp": 1766866140
+    },
+    {
+      "last": 1.311e-05,
+      "bid": 1.308e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 51031.439293603,
+      "change": 7.948613458e-08,
+      "percentage": 0.61,
+      "timestamp": 1766866174
+    },
+    {
+      "last": 1.315e-05,
+      "bid": 1.309e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 51061.115370496,
+      "change": 1.78999802723e-07,
+      "percentage": 1.38,
+      "timestamp": 1766866192
+    },
+    {
+      "last": 1.315e-05,
+      "bid": 1.309e-05,
+      "ask": 1.315e-05,
+      "high": 1.335e-05,
+      "low": 1.287e-05,
+      "volume": null,
+      "quoteVolume": 51108.625182484,
+      "change": 1.39215395271e-07,
+      "percentage": 1.07,
+      "timestamp": 1766866222
+    }
+  ]
 }
