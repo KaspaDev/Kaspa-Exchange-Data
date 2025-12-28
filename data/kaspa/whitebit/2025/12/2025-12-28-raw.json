@@ -3,7 +3,115 @@
   "token": "kaspa",
   "exchange": "whitebit",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:07:26.160502"
+  "count": 9,
+  "data": [
+    {
+      "last": 0.04416,
+      "bid": 0.04424,
+      "ask": 0.0446,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 8.80575,
+      "change": -0.00021,
+      "percentage": -0.47,
+      "timestamp": 1766860853
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04412,
+      "ask": 0.0446,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 8.80575,
+      "change": -0.00021,
+      "percentage": -0.47,
+      "timestamp": 1766861253
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04431,
+      "ask": 0.0446,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 8.80575,
+      "change": -0.00021,
+      "percentage": -0.47,
+      "timestamp": 1766861750
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04439,
+      "ask": 0.04475,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 8.80575,
+      "change": -0.00021,
+      "percentage": -0.47,
+      "timestamp": 1766862660
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04443,
+      "ask": 0.04479,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 8.80575,
+      "change": -0.00021,
+      "percentage": -0.47,
+      "timestamp": 1766863572
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04437,
+      "ask": 0.04479,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 8.80575,
+      "change": -0.00021,
+      "percentage": -0.47,
+      "timestamp": 1766864496
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04442,
+      "ask": 0.04477,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 8.80575,
+      "change": -0.00021,
+      "percentage": -0.47,
+      "timestamp": 1766864746
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04442,
+      "ask": 0.04477,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 6.23229,
+      "change": -0.00043,
+      "percentage": -0.96,
+      "timestamp": 1766865442
+    },
+    {
+      "last": 0.04416,
+      "bid": 0.04442,
+      "ask": 0.04483,
+      "high": 0.04459,
+      "low": 0.0439,
+      "volume": null,
+      "quoteVolume": 6.23229,
+      "change": -0.00043,
+      "percentage": -0.96,
+      "timestamp": 1766866228
+    }
+  ]
 }
