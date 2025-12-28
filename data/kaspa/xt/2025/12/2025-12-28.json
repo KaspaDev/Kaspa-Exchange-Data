@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "kaspa",
-  "exchange": "xt",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
+  "date": "2025-12-27",
+  "open": 0.04481,
+  "high": 0.04485,
+  "low": 0.04471,
+  "close": 0.04481,
   "volume": null,
-  "quoteVolume": null,
+  "quoteVolume": 51724038.4148674,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:07:31.740300"
+  "trades": 160,
+  "avgPrice": 0.044799,
+  "vwap": null,
+  "timestamp": 1766860559,
+  "lastUpdate": 1766866238,
+  "token": "kaspa",
+  "exchange": "xt"
 }
