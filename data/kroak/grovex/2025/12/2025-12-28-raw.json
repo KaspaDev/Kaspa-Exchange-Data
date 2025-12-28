@@ -3,7 +3,19 @@
   "token": "kroak",
   "exchange": "grovex",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:08:34.336096"
+  "count": 1,
+  "data": [
+    {
+      "last": 7.892e-05,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 54040.0,
+      "quoteVolume": 4.2648368,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766866257
+    }
+  ]
 }
