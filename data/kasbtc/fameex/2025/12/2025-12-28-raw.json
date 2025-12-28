@@ -3,7 +3,19 @@
   "token": "kasbtc",
   "exchange": "fameex",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:08:05.517824"
+  "count": 1,
+  "data": [
+    {
+      "last": 0.01498,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 101177.88,
+      "quoteVolume": 1430.0652,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766866253
+    }
+  ]
 }
