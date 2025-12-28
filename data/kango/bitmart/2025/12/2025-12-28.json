@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "kango",
-  "exchange": "bitmart",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
+  "date": "2025-12-27",
+  "open": 1.9e-06,
+  "high": 2.05e-06,
+  "low": 1.8e-06,
+  "close": 1.9e-06,
   "volume": null,
-  "quoteVolume": null,
+  "quoteVolume": 15132795.466120759,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:08:16.461971"
+  "trades": 192,
+  "avgPrice": 1.9303645833333334e-06,
+  "vwap": null,
+  "timestamp": 1766860559,
+  "lastUpdate": 1766866244,
+  "token": "kango",
+  "exchange": "bitmart"
 }
