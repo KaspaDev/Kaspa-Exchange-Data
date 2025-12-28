@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "kaspa",
-  "exchange": "biconomy",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
-  "volume": null,
+  "date": "2025-12-27",
+  "open": 0.0448,
+  "high": 0.04484,
+  "low": 0.0447,
+  "close": 0.0448,
+  "volume": 1671837854.84737,
   "quoteVolume": null,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:07:40.074894"
+  "trades": 206,
+  "avgPrice": 0.04479043689320388,
+  "vwap": null,
+  "timestamp": 1766860575,
+  "lastUpdate": 1766866253,
+  "token": "kaspa",
+  "exchange": "biconomy"
 }
