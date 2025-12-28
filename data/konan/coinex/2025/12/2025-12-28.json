@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "konan",
-  "exchange": "coinex",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
+  "date": "2025-12-27",
+  "open": 7.858e-07,
+  "high": 7.858e-07,
+  "low": 7.858e-07,
+  "close": 7.858e-07,
   "volume": null,
-  "quoteVolume": null,
+  "quoteVolume": 812839.4389416095,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:08:27.260470"
+  "trades": 119,
+  "avgPrice": 7.858e-07,
+  "vwap": null,
+  "timestamp": 1766860594,
+  "lastUpdate": 1766866238,
+  "token": "konan",
+  "exchange": "coinex"
 }
