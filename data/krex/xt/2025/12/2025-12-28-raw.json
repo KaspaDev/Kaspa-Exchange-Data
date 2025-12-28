@@ -3,7 +3,19 @@
   "token": "krex",
   "exchange": "xt",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:08:39.687992"
+  "count": 1,
+  "data": [
+    {
+      "last": 2.1e-06,
+      "bid": null,
+      "ask": null,
+      "high": 2.1e-06,
+      "low": 2.1e-06,
+      "volume": null,
+      "quoteVolume": 16.5784311,
+      "change": 0.0,
+      "percentage": 0.0,
+      "timestamp": 1766866244
+    }
+  ]
 }
