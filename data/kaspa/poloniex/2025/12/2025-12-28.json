@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "kaspa",
-  "exchange": "poloniex",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
+  "date": "2025-12-27",
+  "open": 0.04732,
+  "high": 0.04732,
+  "low": 0.04732,
+  "close": 0.04732,
   "volume": null,
-  "quoteVolume": null,
+  "quoteVolume": 12183.4721463,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:07:15.976916"
+  "trades": 91,
+  "avgPrice": 0.04732,
+  "vwap": null,
+  "timestamp": 1766860559,
+  "lastUpdate": 1766866228,
+  "token": "kaspa",
+  "exchange": "poloniex"
 }
