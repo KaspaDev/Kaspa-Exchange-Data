@@ -3,7 +3,19 @@
   "token": "slow",
   "exchange": "fameex",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:08:04.100449"
+  "count": 1,
+  "data": [
+    {
+      "last": 0.0146,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 0.0,
+      "quoteVolume": 0.0,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766866253
+    }
+  ]
 }
