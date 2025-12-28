@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "slow",
-  "exchange": "fameex",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
+  "date": "2025-12-27",
+  "open": 0.0146,
+  "high": 0.0146,
+  "low": 0.0146,
+  "close": 0.0146,
   "volume": null,
   "quoteVolume": null,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:08:04.701566"
+  "trades": 1,
+  "avgPrice": 0.0146,
+  "vwap": null,
+  "timestamp": 1766866253,
+  "lastUpdate": 1766866253,
+  "token": "slow",
+  "exchange": "fameex"
 }
