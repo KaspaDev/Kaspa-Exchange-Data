@@ -3,7 +3,19 @@
   "token": "kango",
   "exchange": "poloniex",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:08:20.060832"
+  "count": 1,
+  "data": [
+    {
+      "last": 8.22e-06,
+      "bid": 8e-06,
+      "ask": 1.302e-05,
+      "high": 8.22e-06,
+      "low": 8.22e-06,
+      "volume": null,
+      "quoteVolume": 0.0,
+      "change": 0.0,
+      "percentage": 0.0,
+      "timestamp": 1766866233
+    }
+  ]
 }
