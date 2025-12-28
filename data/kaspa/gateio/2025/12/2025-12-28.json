@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "kaspa",
-  "exchange": "gateio",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
+  "date": "2025-12-27",
+  "open": 0.04481,
+  "high": 0.04485,
+  "low": 0.04471,
+  "close": 0.04481,
   "volume": null,
-  "quoteVolume": null,
+  "quoteVolume": 130370156.666977,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:06:28.141408"
+  "trades": 198,
+  "avgPrice": 0.044797828282828286,
+  "vwap": null,
+  "timestamp": 1766860580,
+  "lastUpdate": 1766866228,
+  "token": "kaspa",
+  "exchange": "gateio"
 }
