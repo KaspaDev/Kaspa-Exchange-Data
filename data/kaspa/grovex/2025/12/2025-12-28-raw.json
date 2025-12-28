@@ -3,7 +3,139 @@
   "token": "kaspa",
   "exchange": "grovex",
   "resolution": "1m",
-  "count": 0,
-  "data": [],
-  "created": "2025-12-28T10:07:40.989806"
+  "count": 11,
+  "data": [
+    {
+      "last": 0.044831,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18780717.7033807,
+      "quoteVolume": 841958.3553602605,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766863654
+    },
+    {
+      "last": 0.044883,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18758958.9679892,
+      "quoteVolume": 841958.3553602605,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766863769
+    },
+    {
+      "last": 0.044883,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18709390.5463086,
+      "quoteVolume": 839733.5758899731,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766864233
+    },
+    {
+      "last": 0.044778,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18753262.2245293,
+      "quoteVolume": 839733.5758899731,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766864365
+    },
+    {
+      "last": 0.044778,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18666586.7166426,
+      "quoteVolume": 835852.4199978253,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766864677
+    },
+    {
+      "last": 0.044778,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18593871.3868043,
+      "quoteVolume": 832596.3729583243,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766864849
+    },
+    {
+      "last": 0.04478,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18593040.9325217,
+      "quoteVolume": 832596.3729583243,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766865266
+    },
+    {
+      "last": 0.04478,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18521231.8948267,
+      "quoteVolume": 829380.7642503425,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766865464
+    },
+    {
+      "last": 0.044793,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18515856.590323,
+      "quoteVolume": 829380.7642503425,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766866051
+    },
+    {
+      "last": 0.044808,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18509658.1916252,
+      "quoteVolume": 829380.7642503425,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766866192
+    },
+    {
+      "last": 0.044808,
+      "bid": null,
+      "ask": null,
+      "high": null,
+      "low": null,
+      "volume": 18379695.5763174,
+      "quoteVolume": 823557.3993836318,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766866253
+    }
+  ]
 }
