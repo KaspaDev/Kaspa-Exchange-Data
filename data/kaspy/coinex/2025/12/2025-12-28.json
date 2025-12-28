@@ -1,15 +1,18 @@
 {
-  "date": "2025-12-28",
-  "token": "kaspy",
-  "exchange": "coinex",
-  "open": null,
-  "high": null,
-  "low": null,
-  "close": null,
+  "date": "2025-12-27",
+  "open": 2.692e-06,
+  "high": 2.692e-06,
+  "low": 2.692e-06,
+  "close": 2.692e-06,
   "volume": null,
-  "quoteVolume": null,
+  "quoteVolume": 314368.01426665107,
   "change": 0,
   "percentage": 0,
-  "trades": 0,
-  "created": "2025-12-28T10:08:09.003559"
+  "trades": 133,
+  "avgPrice": 2.692e-06,
+  "vwap": null,
+  "timestamp": 1766860620,
+  "lastUpdate": 1766866228,
+  "token": "kaspy",
+  "exchange": "coinex"
 }
