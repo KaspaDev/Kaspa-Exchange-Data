@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87575.53,
+  "high": 87578.62,
+  "low": 87575.53,
+  "close": 87578.62,
+  "volume": null,
+  "quoteVolume": 1143780607.7188787,
+  "change": 3.0899999999965075,
+  "percentage": 0.0035283828713300477,
+  "trades": 2,
+  "avgPrice": 87577.075,
+  "vwap": null,
+  "timestamp": 1766956583577,
+  "lastUpdate": 1766956696310,
+  "token": "btc",
+  "exchange": "ascendex"
+}
