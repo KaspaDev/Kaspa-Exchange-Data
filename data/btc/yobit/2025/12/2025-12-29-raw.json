@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "yobit",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "yobit",
+      "symbol": "BTC/USDT",
+      "last": 87799.0,
+      "bid": 87799.0,
+      "ask": 87800.0,
+      "open": null,
+      "close": 87799.0,
+      "high": 88790.0,
+      "low": 87140.0,
+      "average": 87965.0,
+      "vwap": 87665.07248355832,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 4.12106948,
+      "quoteVolume": 361273.85467398,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956924000,
+      "datetime": "2025-12-28T21:22:04.000Z",
+      "exchange_timestamp": "2025-12-28T21:22:05.933757",
+      "data_source": "official_exchange_api",
+      "exchange_id": "yobit"
+    }
+  ]
+}
