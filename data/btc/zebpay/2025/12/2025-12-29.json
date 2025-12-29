@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87542.05,
+  "high": 87542.05,
+  "low": 87542.05,
+  "close": 87542.05,
+  "volume": null,
+  "quoteVolume": 2.17034,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87542.05,
+  "vwap": null,
+  "timestamp": 1766956932115,
+  "lastUpdate": 1766956932115,
+  "token": "btc",
+  "exchange": "zebpay"
+}
