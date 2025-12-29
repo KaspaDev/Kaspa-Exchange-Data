@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "coinmetro",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "coinmetro",
+      "symbol": "BTC/USDT",
+      "last": 87562.24324878781,
+      "bid": 87525.78815195749,
+      "ask": 87598.71476617546,
+      "open": 87637.91699894774,
+      "close": 87562.24324878781,
+      "high": 88055.397947594,
+      "low": 87433.413558966,
+      "average": 87600.08,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1.3534847872569993,
+      "quoteVolume": 118514.16417533119,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -75.67375015992525,
+      "percentage": -0.08634818438328917,
+      "timestamp": 1766956773359,
+      "datetime": "2025-12-28T21:19:33.359Z",
+      "exchange_timestamp": "2025-12-28T21:19:38.311670",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinmetro"
+    }
+  ]
+}
