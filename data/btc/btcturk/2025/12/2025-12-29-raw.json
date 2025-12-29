@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "btcturk",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "btcturk",
+      "symbol": "BTC/USDT",
+      "last": 87624.0,
+      "bid": 87555.0,
+      "ask": 87583.0,
+      "open": 87671.0,
+      "close": 87624.0,
+      "high": 88015.0,
+      "low": 87470.0,
+      "average": 87708.0,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2.32033144,
+      "quoteVolume": 203316.72209855999,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -88.0,
+      "percentage": -0.05,
+      "timestamp": 1766956755014,
+      "datetime": "2025-12-28T21:19:15.014Z",
+      "exchange_timestamp": "2025-12-28T21:19:15.853164",
+      "data_source": "official_exchange_api",
+      "exchange_id": "btcturk"
+    }
+  ]
+}
