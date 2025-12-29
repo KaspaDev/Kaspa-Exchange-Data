@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 0.04479,
+  "high": 0.04567,
+  "low": 0.04413,
+  "close": 0.04509,
+  "volume": null,
+  "quoteVolume": 538894704.1199995,
+  "change": 0.0002999999999999947,
+  "percentage": 0.6697923643670344,
+  "trades": 3605,
+  "avgPrice": 0.04489294590846047,
+  "vwap": null,
+  "timestamp": 1766860528205,
+  "lastUpdate": 1766987348896,
+  "token": "kaspa",
+  "exchange": "bingx"
+}
