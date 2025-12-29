@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "deribit",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "deribit",
+      "symbol": "BTC/USDT",
+      "last": 87499.0,
+      "bid": 87541.0,
+      "ask": 87576.0,
+      "open": null,
+      "close": 87499.0,
+      "high": 88076.0,
+      "low": 87462.0,
+      "average": null,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": null,
+      "quoteVolume": 8.5533,
+      "bidVolume": 0.0001,
+      "askVolume": 0.0006,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956794426,
+      "datetime": "2025-12-28T21:19:54.426Z",
+      "exchange_timestamp": "2025-12-28T21:19:54.728733",
+      "data_source": "official_exchange_api",
+      "exchange_id": "deribit"
+    }
+  ]
+}
