@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87552.52,
+  "high": 87552.52,
+  "low": 87552.52,
+  "close": 87552.52,
+  "volume": null,
+  "quoteVolume": null,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87552.52,
+  "vwap": null,
+  "timestamp": 1766956761894,
+  "lastUpdate": 1766956761894,
+  "token": "btc",
+  "exchange": "coinbaseadvanced"
+}
