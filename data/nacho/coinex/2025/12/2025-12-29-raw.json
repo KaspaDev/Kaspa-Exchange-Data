@@ -3,7 +3,7 @@
   "token": "nacho",
   "exchange": "coinex",
   "resolution": "1m",
-  "count": 6,
+  "count": 7,
   "data": [
     {
       "token": "Nacho",
@@ -164,6 +164,33 @@
       "timestamp": 1766860675975,
       "datetime": "2025-12-27T18:37:55.975964",
       "exchange_timestamp": "2025-12-27T18:37:55.975965",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinex"
+    },
+    {
+      "token": "Nacho",
+      "exchange": "coinex",
+      "symbol": "NACHO/USDT",
+      "last": 1.30603e-05,
+      "bid": null,
+      "ask": null,
+      "open": 1.29466e-05,
+      "close": 1.30603e-05,
+      "high": 1.31999e-05,
+      "low": 1.2651e-05,
+      "average": 1.30034e-05,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 442045354.168103,
+      "quoteVolume": 5773.244939041675,
+      "bidVolume": 125692588.35565718,
+      "askVolume": 124038385.06878795,
+      "change": 1.137e-07,
+      "percentage": 0.8782228538766934,
+      "timestamp": 1766860701043,
+      "datetime": "2025-12-27T18:38:21.043580",
+      "exchange_timestamp": "2025-12-27T18:38:21.043582",
       "data_source": "official_exchange_api",
       "exchange_id": "coinex"
     }
