@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 0.0514919,
+  "high": 0.0522,
+  "low": 0.05046,
+  "close": 0.05182,
+  "volume": null,
+  "quoteVolume": 55903748.200732626,
+  "change": 0.00032809999999999784,
+  "percentage": 0.6371875964957553,
+  "trades": 1267,
+  "avgPrice": 0.051334204017363855,
+  "vwap": null,
+  "timestamp": 1766925030000,
+  "lastUpdate": 1766987343000,
+  "token": "kaspa",
+  "exchange": "exmo"
+}
