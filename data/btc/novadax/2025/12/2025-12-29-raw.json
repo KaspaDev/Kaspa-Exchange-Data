@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "novadax",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "novadax",
+      "symbol": "BTC/USDT",
+      "last": 87542.05,
+      "bid": 87399.02,
+      "ask": 87712.99,
+      "open": 87634.39,
+      "close": 87542.05,
+      "high": 88028.71,
+      "low": 87456.0,
+      "average": 87588.22,
+      "vwap": 87780.26447159784,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 10.624086,
+      "quoteVolume": 932585.078849,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -92.34,
+      "percentage": -0.1053695929189442,
+      "timestamp": 1766956883516,
+      "datetime": "2025-12-28T21:21:23.516Z",
+      "exchange_timestamp": "2025-12-28T21:21:25.465239",
+      "data_source": "official_exchange_api",
+      "exchange_id": "novadax"
+    }
+  ]
+}
