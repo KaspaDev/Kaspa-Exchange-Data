@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 2.748e-06,
+  "high": 2.752e-06,
+  "low": 2.672e-06,
+  "close": 2.691e-06,
+  "volume": null,
+  "quoteVolume": 63066904.57192234,
+  "change": -5.700000000000005e-08,
+  "percentage": -2.074235807860264,
+  "trades": 3629,
+  "avgPrice": 2.736772113529898e-06,
+  "vwap": null,
+  "timestamp": 1766860529721,
+  "lastUpdate": 1766987384613,
+  "token": "kaspy",
+  "exchange": "mexc"
+}
