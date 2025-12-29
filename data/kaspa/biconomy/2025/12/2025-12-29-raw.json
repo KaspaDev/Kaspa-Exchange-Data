@@ -3,7 +3,7 @@
   "token": "kaspa",
   "exchange": "biconomy",
   "resolution": "1m",
-  "count": 6,
+  "count": 7,
   "data": [
     {
       "token": "Kaspa",
@@ -111,6 +111,24 @@
       "low": 0.04424,
       "volume": 8205665.92229,
       "baseVolume": 8205665.92229,
+      "quoteVolume": null
+    },
+    {
+      "token": "Kaspa",
+      "exchange": "biconomy",
+      "symbol": "KAS_USDT",
+      "timestamp": 1766860705608,
+      "datetime": "2025-12-27T18:38:25.608010",
+      "exchange_timestamp": "2025-12-27T18:38:25.608019",
+      "data_source": "official_exchange_api",
+      "exchange_id": "biconomy",
+      "last": 0.0448,
+      "bid": 0.04479,
+      "ask": 0.04482,
+      "high": 0.04509,
+      "low": 0.04424,
+      "volume": 8203659.86245,
+      "baseVolume": 8203659.86245,
       "quoteVolume": null
     }
   ]
