@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "coinsph",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "coinsph",
+      "symbol": "BTC/USDT",
+      "last": 87564.81,
+      "bid": 87519.29,
+      "ask": 87611.59,
+      "open": 87617.87,
+      "close": 87564.81,
+      "high": 88057.73,
+      "low": 87429.96,
+      "average": 87591.34,
+      "vwap": 87749.52572784331,
+      "previousClose": 87685.11,
+      "volume": null,
+      "baseVolume": 1.7413631,
+      "quoteVolume": 152803.78,
+      "bidVolume": 1.71e-05,
+      "askVolume": 1.71e-05,
+      "change": -53.06,
+      "percentage": -0.06,
+      "timestamp": 1766956781719,
+      "datetime": "2025-12-28T21:19:41.719Z",
+      "exchange_timestamp": "2025-12-28T21:19:42.599923",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinsph"
+    }
+  ]
+}
