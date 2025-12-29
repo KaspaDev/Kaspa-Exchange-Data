@@ -5,14 +5,14 @@
   "low": 0.0002978,
   "close": 0.0003023,
   "volume": null,
-  "quoteVolume": 904285.4186245998,
+  "quoteVolume": 860970.2812012999,
   "change": 1.2999999999999774e-06,
   "percentage": 0.43189368770763364,
-  "trades": 21,
-  "avgPrice": 0.00030139047619047617,
+  "trades": 20,
+  "avgPrice": 0.000301345,
   "vwap": null,
   "timestamp": 1766860528105,
-  "lastUpdate": 1766861064782,
+  "lastUpdate": 1766861044714,
   "token": "ppkas",
   "exchange": "ascendex"
 }
