@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 7.892e-05,
+  "high": 7.892e-05,
+  "low": 7.892e-05,
+  "close": 7.892e-05,
+  "volume": 190761200.0,
+  "quoteVolume": 15054.873903998578,
+  "change": 0,
+  "percentage": 0,
+  "trades": 3530,
+  "avgPrice": 7.892e-05,
+  "vwap": 7.891999999999254e-05,
+  "timestamp": 1766863435992,
+  "lastUpdate": 1766987400489,
+  "token": "kroak",
+  "exchange": "grovex"
+}
