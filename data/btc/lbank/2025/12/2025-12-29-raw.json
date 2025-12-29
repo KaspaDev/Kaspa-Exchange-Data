@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "lbank",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "lbank",
+      "symbol": "BTC/USDT",
+      "last": 87538.69,
+      "bid": null,
+      "ask": null,
+      "open": 87626.31631631631,
+      "close": 87538.69,
+      "high": 88087.09,
+      "low": 87436.63,
+      "average": 87582.5,
+      "vwap": 87780.91374645705,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2663.1764,
+      "quoteVolume": 233776057.86,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -87.62631631631632,
+      "percentage": -0.1,
+      "timestamp": 1766956862418,
+      "datetime": "2025-12-28T21:21:02.418Z",
+      "exchange_timestamp": "2025-12-28T21:21:03.261838",
+      "data_source": "official_exchange_api",
+      "exchange_id": "lbank"
+    }
+  ]
+}
