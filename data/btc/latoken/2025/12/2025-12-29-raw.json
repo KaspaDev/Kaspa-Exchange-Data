@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "latoken",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "latoken",
+      "symbol": "BTC/USDT",
+      "last": 87538.3,
+      "bid": 87536.98,
+      "ask": 87539.72,
+      "open": 87625.92592592593,
+      "close": 87538.3,
+      "high": null,
+      "low": null,
+      "average": 87582.11,
+      "vwap": 87935.81021961832,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 715.2429152,
+      "quoteVolume": 62895465.25195376,
+      "bidVolume": 0.263588,
+      "askVolume": 0.967987,
+      "change": -87.62592592592593,
+      "percentage": -0.1,
+      "timestamp": 1766956853687,
+      "datetime": "2025-12-28T21:20:53.687Z",
+      "exchange_timestamp": "2025-12-28T21:21:00.443629",
+      "data_source": "official_exchange_api",
+      "exchange_id": "latoken"
+    }
+  ]
+}
