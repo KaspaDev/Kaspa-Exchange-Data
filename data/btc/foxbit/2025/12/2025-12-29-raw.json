@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "foxbit",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "foxbit",
+      "symbol": "BTC/USDT",
+      "last": 87725.36,
+      "bid": 87388.75,
+      "ask": 87737.91,
+      "open": null,
+      "close": 87725.36,
+      "high": null,
+      "low": null,
+      "average": null,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.0,
+      "quoteVolume": 0.0,
+      "bidVolume": 0.00043,
+      "askVolume": 0.02683351,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766864763710,
+      "datetime": "2025-12-27T19:46:03.710Z",
+      "exchange_timestamp": "2025-12-28T21:20:07.221680",
+      "data_source": "official_exchange_api",
+      "exchange_id": "foxbit"
+    }
+  ]
+}
