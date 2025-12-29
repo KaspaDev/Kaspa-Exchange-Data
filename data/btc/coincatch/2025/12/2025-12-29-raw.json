@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "coincatch",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "coincatch",
+      "symbol": "BTC/USDT",
+      "last": 87848.94,
+      "bid": 87847.86,
+      "ask": 87849.03,
+      "open": null,
+      "close": 87848.94,
+      "high": null,
+      "low": null,
+      "average": null,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.0,
+      "quoteVolume": 0.0,
+      "bidVolume": 0.35543,
+      "askVolume": 0.41893,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956771257,
+      "datetime": "2025-12-28T21:19:31.257Z",
+      "exchange_timestamp": "2025-12-28T21:19:33.680943",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coincatch"
+    }
+  ]
+}
