@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 2.071e-06,
+  "high": 2.072e-06,
+  "low": 2.068e-06,
+  "close": 2.07e-06,
+  "volume": null,
+  "quoteVolume": 27947.571561917,
+  "change": -1.0000000000000751e-09,
+  "percentage": -0.04828585224529575,
+  "trades": 6,
+  "avgPrice": 2.0698333333333335e-06,
+  "vwap": null,
+  "timestamp": 1766860524804,
+  "lastUpdate": 1766860671024,
+  "token": "kango",
+  "exchange": "mexc"
+}
