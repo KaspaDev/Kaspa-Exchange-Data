@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "myokx",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "myokx",
+      "symbol": "BTC/USDT",
+      "last": 87535.6,
+      "bid": 87535.6,
+      "ask": 87535.7,
+      "open": 87630.1,
+      "close": 87535.6,
+      "high": 88088.0,
+      "low": 87442.1,
+      "average": 87582.8,
+      "vwap": 87842.95267431112,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2980.1590632,
+      "quoteVolume": 261785971.55059695,
+      "bidVolume": 0.58048905,
+      "askVolume": 0.13480203,
+      "change": -94.5,
+      "percentage": -0.1078396578344655,
+      "timestamp": 1766956875605,
+      "datetime": "2025-12-28T21:21:15.605Z",
+      "exchange_timestamp": "2025-12-28T21:21:16.913452",
+      "data_source": "official_exchange_api",
+      "exchange_id": "myokx"
+    }
+  ]
+}
