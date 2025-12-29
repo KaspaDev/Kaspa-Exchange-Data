@@ -3,7 +3,7 @@
   "token": "konan",
   "exchange": "ascendex",
   "resolution": "1m",
-  "count": 6,
+  "count": 7,
   "data": [
     {
       "token": "Konan",
@@ -164,6 +164,33 @@
       "timestamp": 1766860674707,
       "datetime": "2025-12-27T18:37:54.707807",
       "exchange_timestamp": "2025-12-27T18:37:54.707808",
+      "data_source": "official_exchange_api",
+      "exchange_id": "ascendex"
+    },
+    {
+      "token": "Konan",
+      "exchange": "ascendex",
+      "symbol": "KONAN/USDT",
+      "last": 7.98e-07,
+      "bid": 7.89e-07,
+      "ask": 8.11e-07,
+      "open": 7.95e-07,
+      "close": 7.98e-07,
+      "high": 8.1e-07,
+      "low": 7.9e-07,
+      "average": 7.96e-07,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 64245324130.0,
+      "quoteVolume": 51267.76865574,
+      "bidVolume": 6526931.0,
+      "askVolume": 6352393.0,
+      "change": 3e-09,
+      "percentage": 0.3773584905660377,
+      "timestamp": 1766860696817,
+      "datetime": "2025-12-27T18:38:16.817485",
+      "exchange_timestamp": "2025-12-27T18:38:16.817486",
       "data_source": "official_exchange_api",
       "exchange_id": "ascendex"
     }
