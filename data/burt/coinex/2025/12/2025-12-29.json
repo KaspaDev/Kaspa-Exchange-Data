@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 5.379e-05,
+  "high": 5.379e-05,
+  "low": 5.379e-05,
+  "close": 5.379e-05,
+  "volume": null,
+  "quoteVolume": 30667.09197738825,
+  "change": 0,
+  "percentage": 0,
+  "trades": 5,
+  "avgPrice": 5.379e-05,
+  "vwap": null,
+  "timestamp": 1766860520017,
+  "lastUpdate": 1766860638249,
+  "token": "burt",
+  "exchange": "coinex"
+}
