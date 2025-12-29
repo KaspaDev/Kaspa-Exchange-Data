@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "kucoin",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "kucoin",
+      "symbol": "BTC/USDT",
+      "last": 87542.1,
+      "bid": 87542.0,
+      "ask": 87542.1,
+      "open": 87628.9,
+      "close": 87542.1,
+      "high": 88082.3,
+      "low": 87444.4,
+      "average": 87775.75450752,
+      "vwap": 87769.80703048034,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1508.81323306,
+      "quoteVolume": 132428246.31071135,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -86.8,
+      "percentage": -0.09,
+      "timestamp": 1766956851050,
+      "datetime": "2025-12-28T21:20:51.050Z",
+      "exchange_timestamp": "2025-12-28T21:20:53.537488",
+      "data_source": "official_exchange_api",
+      "exchange_id": "kucoin"
+    }
+  ]
+}
