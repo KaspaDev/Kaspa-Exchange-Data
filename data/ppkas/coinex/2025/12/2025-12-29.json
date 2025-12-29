@@ -5,14 +5,14 @@
   "low": 0.0003003,
   "close": 0.0003003,
   "volume": null,
-  "quoteVolume": 153241.37085150788,
+  "quoteVolume": 161286.29055459512,
   "change": -5.200000000000018e-07,
   "percentage": -0.172860847018151,
-  "trades": 19,
-  "avgPrice": 0.00030136315789473686,
+  "trades": 20,
+  "avgPrice": 0.00030131,
   "vwap": null,
   "timestamp": 1766860524660,
-  "lastUpdate": 1766861017620,
+  "lastUpdate": 1766861040563,
   "token": "ppkas",
   "exchange": "coinex"
 }
