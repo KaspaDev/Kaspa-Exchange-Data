@@ -5,14 +5,14 @@
   "low": 5.437e-05,
   "close": 5.472e-05,
   "volume": null,
-  "quoteVolume": 219035.57555297943,
+  "quoteVolume": 557518.8014893485,
   "change": 0,
   "percentage": 0,
-  "trades": 31,
-  "avgPrice": 5.468741935483871e-05,
+  "trades": 79,
+  "avgPrice": 5.470721518987342e-05,
   "vwap": null,
   "timestamp": 1766957983718,
-  "lastUpdate": 1766959355025,
+  "lastUpdate": 1766961507982,
   "token": "burt",
   "exchange": "coinex"
 }
