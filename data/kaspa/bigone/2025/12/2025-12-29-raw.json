@@ -3,7 +3,7 @@
   "token": "kaspa",
   "exchange": "bigone",
   "resolution": "1m",
-  "count": 7,
+  "count": 6,
   "data": [
     {
       "token": "Kaspa",
@@ -164,33 +164,6 @@
       "timestamp": 1766860676019,
       "datetime": "2025-12-27T18:37:56.019193",
       "exchange_timestamp": "2025-12-27T18:37:56.019194",
-      "data_source": "official_exchange_api",
-      "exchange_id": "bigone"
-    },
-    {
-      "token": "Kaspa",
-      "exchange": "bigone",
-      "symbol": "KAS/USDT",
-      "last": 0.04509,
-      "bid": 0.04458,
-      "ask": 0.04537,
-      "open": 0.04518,
-      "close": 0.04509,
-      "high": 0.0452,
-      "low": 0.04476,
-      "average": 0.04513,
-      "vwap": null,
-      "previousClose": null,
-      "volume": null,
-      "baseVolume": 1233070.3,
-      "quoteVolume": 55599.139827,
-      "bidVolume": 558.75,
-      "askVolume": 551.44,
-      "change": -9e-05,
-      "percentage": -0.199203187250996,
-      "timestamp": 1766860696572,
-      "datetime": "2025-12-27T18:38:16.572665",
-      "exchange_timestamp": "2025-12-27T18:38:16.572667",
       "data_source": "official_exchange_api",
       "exchange_id": "bigone"
     }
