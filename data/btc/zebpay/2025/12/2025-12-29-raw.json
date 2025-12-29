@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "zebpay",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "zebpay",
+      "symbol": "BTC/USDT",
+      "last": 87542.05,
+      "bid": 86666.6295,
+      "ask": 88417.4705,
+      "open": 87928.77,
+      "close": 87542.05,
+      "high": 88068.7513445,
+      "low": 87049.4823,
+      "average": 87735.41,
+      "vwap": 87549.01169826543,
+      "previousClose": 0.0,
+      "volume": null,
+      "baseVolume": 2.479e-05,
+      "quoteVolume": 2.17034,
+      "bidVolume": 0.01582575,
+      "askVolume": 0.00173438,
+      "change": -386.72,
+      "percentage": -0.43,
+      "timestamp": 1766956932115,
+      "datetime": "2025-12-28T21:22:12.115Z",
+      "exchange_timestamp": "2025-12-28T21:22:12.850247",
+      "data_source": "official_exchange_api",
+      "exchange_id": "zebpay"
+    }
+  ]
+}
