@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 2.061e-06,
+  "high": 2.142e-06,
+  "low": 2.061e-06,
+  "close": 2.092e-06,
+  "volume": null,
+  "quoteVolume": 951638.2056991719,
+  "change": 3.100000000000021e-08,
+  "percentage": 1.5041242115478028,
+  "trades": 19,
+  "avgPrice": 2.0867894736842107e-06,
+  "vwap": null,
+  "timestamp": 1766860524813,
+  "lastUpdate": 1766861015028,
+  "token": "kango",
+  "exchange": "ascendex"
+}
