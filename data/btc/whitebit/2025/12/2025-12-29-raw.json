@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "whitebit",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "whitebit",
+      "symbol": "BTC/USDT",
+      "last": 87538.8,
+      "bid": 87538.89,
+      "ask": 87538.9,
+      "open": 87641.31,
+      "close": 87538.8,
+      "high": 88089.62,
+      "low": 87452.2,
+      "average": 87590.05,
+      "vwap": 87704.15099637522,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1017.670268,
+      "quoteVolume": 89253906.84919363,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -102.51,
+      "percentage": -0.12,
+      "timestamp": 1766956914674,
+      "datetime": "2025-12-28T21:21:54.674106",
+      "exchange_timestamp": "2025-12-28T21:21:54.674108",
+      "data_source": "official_exchange_api",
+      "exchange_id": "whitebit"
+    }
+  ]
+}
