@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "poloniex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "poloniex",
+      "symbol": "BTC/USDT",
+      "last": 87527.72,
+      "bid": 87476.75,
+      "ask": 87550.59,
+      "open": 87648.49,
+      "close": 87527.72,
+      "high": 88080.0,
+      "low": 87434.47,
+      "average": 87588.1,
+      "vwap": 87779.66933501657,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2429.614618,
+      "quoteVolume": 213270767.77956262,
+      "bidVolume": 0.058829,
+      "askVolume": 0.015526,
+      "change": -120.77,
+      "percentage": -0.14,
+      "timestamp": 1766956901849,
+      "datetime": "2025-12-28T21:21:41.849Z",
+      "exchange_timestamp": "2025-12-28T21:21:43.572542",
+      "data_source": "official_exchange_api",
+      "exchange_id": "poloniex"
+    }
+  ]
+}
