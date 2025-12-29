@@ -8,11 +8,11 @@
   "quoteVolume": null,
   "change": 0,
   "percentage": 0,
-  "trades": 1,
+  "trades": 1426,
   "avgPrice": 0.0146,
   "vwap": null,
   "timestamp": 1766866253,
-  "lastUpdate": 1766866253,
+  "lastUpdate": 1766948016721,
   "token": "slow",
   "exchange": "fameex"
 }
