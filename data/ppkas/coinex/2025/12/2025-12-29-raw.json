@@ -3,7 +3,7 @@
   "token": "ppkas",
   "exchange": "coinex",
   "resolution": "1m",
-  "count": 20,
+  "count": 21,
   "data": [
     {
       "token": "PPKas",
@@ -542,6 +542,33 @@
       "timestamp": 1766861040563,
       "datetime": "2025-12-27T18:44:00.563880",
       "exchange_timestamp": "2025-12-27T18:44:00.563882",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinex"
+    },
+    {
+      "token": "PPKas",
+      "exchange": "coinex",
+      "symbol": "PPKAS/USDT",
+      "last": 0.0003003,
+      "bid": null,
+      "ask": null,
+      "open": 0.00031302,
+      "close": 0.0003003,
+      "high": 0.00031332,
+      "low": 0.00029752,
+      "average": 0.00030666,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 26789609.40088997,
+      "quoteVolume": 8044.919703087257,
+      "bidVolume": 6377746.47963864,
+      "askVolume": 6217029.71061658,
+      "change": -1.272e-05,
+      "percentage": -4.063638106191298,
+      "timestamp": 1766861067794,
+      "datetime": "2025-12-27T18:44:27.794459",
+      "exchange_timestamp": "2025-12-27T18:44:27.794461",
       "data_source": "official_exchange_api",
       "exchange_id": "coinex"
     }
