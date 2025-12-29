@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "cryptocom",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "cryptocom",
+      "symbol": "BTC/USDT",
+      "last": 87563.53,
+      "bid": 87563.53,
+      "ask": 87563.54,
+      "open": 87564.14294900064,
+      "close": 87563.53,
+      "high": 88093.06,
+      "low": 87423.21,
+      "average": 87563.83,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1157.4036,
+      "quoteVolume": 101346344.85070801,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -0.6129490006430045,
+      "percentage": -0.0007,
+      "timestamp": 1766956783876,
+      "datetime": "2025-12-28T21:19:43.876Z",
+      "exchange_timestamp": "2025-12-28T21:19:44.680488",
+      "data_source": "official_exchange_api",
+      "exchange_id": "cryptocom"
+    }
+  ]
+}
