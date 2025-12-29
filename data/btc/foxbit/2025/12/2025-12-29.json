@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 87725.36,
+  "high": 87725.36,
+  "low": 87725.36,
+  "close": 87725.36,
+  "volume": null,
+  "quoteVolume": null,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87725.36,
+  "vwap": null,
+  "timestamp": 1766864763710,
+  "lastUpdate": 1766864763710,
+  "token": "btc",
+  "exchange": "foxbit"
+}
