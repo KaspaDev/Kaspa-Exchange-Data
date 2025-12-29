@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87584.4,
+  "high": 87584.4,
+  "low": 87584.4,
+  "close": 87584.4,
+  "volume": null,
+  "quoteVolume": 13934.0844134,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87584.4,
+  "vwap": null,
+  "timestamp": 1766956763330,
+  "lastUpdate": 1766956763330,
+  "token": "btc",
+  "exchange": "cex"
+}
