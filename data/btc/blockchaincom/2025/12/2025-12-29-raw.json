@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "blockchaincom",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "blockchaincom",
+      "symbol": "BTC/USDT",
+      "last": 87229.16,
+      "bid": null,
+      "ask": null,
+      "open": 87229.16,
+      "close": 87229.16,
+      "high": null,
+      "low": null,
+      "average": 87229.16,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.0,
+      "quoteVolume": null,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": 0.0,
+      "percentage": 0.0,
+      "timestamp": 1766956748184,
+      "datetime": "2025-12-28T21:19:08.184466",
+      "exchange_timestamp": "2025-12-28T21:19:08.184468",
+      "data_source": "official_exchange_api",
+      "exchange_id": "blockchaincom"
+    }
+  ]
+}
