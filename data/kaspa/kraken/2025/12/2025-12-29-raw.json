@@ -3,7 +3,7 @@
   "token": "kaspa",
   "exchange": "kraken",
   "resolution": "1m",
-  "count": 20,
+  "count": 21,
   "data": [
     {
       "token": "Kaspa",
@@ -542,6 +542,33 @@
       "timestamp": 1766861037400,
       "datetime": "2025-12-27T18:43:57.400311",
       "exchange_timestamp": "2025-12-27T18:43:57.400314",
+      "data_source": "official_exchange_api",
+      "exchange_id": "kraken"
+    },
+    {
+      "token": "Kaspa",
+      "exchange": "kraken",
+      "symbol": "KAS/USDT",
+      "last": 0.04478,
+      "bid": 0.0448,
+      "ask": 0.04483,
+      "open": 0.0449,
+      "close": 0.04478,
+      "high": 0.0452,
+      "low": 0.0372,
+      "average": 0.04484,
+      "vwap": 0.044201979,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 411668.77338,
+      "quoteVolume": 18196.57447589852,
+      "bidVolume": 246.0,
+      "askVolume": 592.0,
+      "change": -0.00012,
+      "percentage": -0.2672605790645879,
+      "timestamp": 1766861067032,
+      "datetime": "2025-12-27T18:44:27.032565",
+      "exchange_timestamp": "2025-12-27T18:44:27.032567",
       "data_source": "official_exchange_api",
       "exchange_id": "kraken"
     }
