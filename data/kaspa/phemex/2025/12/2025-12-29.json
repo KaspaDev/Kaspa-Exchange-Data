@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 0.04476,
+  "high": 0.04569,
+  "low": 0.04404,
+  "close": 0.04511,
+  "volume": null,
+  "quoteVolume": 50358446.93545079,
+  "change": 0.00034999999999999615,
+  "percentage": 0.7819481680071407,
+  "trades": 3616,
+  "avgPrice": 0.04489689435840708,
+  "vwap": null,
+  "timestamp": 1766860511483,
+  "lastUpdate": 1766987368129,
+  "token": "kaspa",
+  "exchange": "phemex"
+}
