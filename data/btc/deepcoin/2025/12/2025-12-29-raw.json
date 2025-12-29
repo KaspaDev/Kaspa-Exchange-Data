@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "deepcoin",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "deepcoin",
+      "symbol": "BTC/USDT",
+      "last": 87563.5,
+      "bid": 87563.4,
+      "ask": 87563.6,
+      "open": 87836.2,
+      "close": 87563.5,
+      "high": 87931.5,
+      "low": 87441.8,
+      "average": 87699.8,
+      "vwap": 44658.02861296588,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2.19611872,
+      "quoteVolume": 98074.33263523,
+      "bidVolume": 0.9841636,
+      "askVolume": 3.1731975,
+      "change": -272.7,
+      "percentage": -0.3104642505026401,
+      "timestamp": 1766956781000,
+      "datetime": "2025-12-28T21:19:41.000Z",
+      "exchange_timestamp": "2025-12-28T21:19:47.863000",
+      "data_source": "official_exchange_api",
+      "exchange_id": "deepcoin"
+    }
+  ]
+}
