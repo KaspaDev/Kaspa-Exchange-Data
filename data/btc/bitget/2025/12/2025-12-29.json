@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87578.73,
+  "high": 87578.73,
+  "low": 87564.73,
+  "close": 87564.73,
+  "volume": null,
+  "quoteVolume": 472582795.392757,
+  "change": -14.0,
+  "percentage": -0.0159856165989162,
+  "trades": 2,
+  "avgPrice": 87571.73,
+  "vwap": null,
+  "timestamp": 1766956614127,
+  "lastUpdate": 1766956721522,
+  "token": "btc",
+  "exchange": "bitget"
+}
