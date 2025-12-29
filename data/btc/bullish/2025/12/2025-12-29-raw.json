@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "bullish",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "bullish",
+      "symbol": "BTC/USDT",
+      "last": 87560.50106,
+      "bid": 87559.1,
+      "ask": 87559.5,
+      "open": 87630.5837667,
+      "close": 87560.50106,
+      "high": 88053.9006974,
+      "low": 87451.7712779,
+      "average": 87595.5424133,
+      "vwap": 87766.4985351,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 175.33526221,
+      "quoteVolume": 15388562.0405151,
+      "bidVolume": 0.000663,
+      "askVolume": 0.04064894,
+      "change": -70.0827067,
+      "percentage": -0.08,
+      "timestamp": 1766956754211,
+      "datetime": "2025-12-28T21:19:14.211Z",
+      "exchange_timestamp": "2025-12-28T21:19:17.123017",
+      "data_source": "official_exchange_api",
+      "exchange_id": "bullish"
+    }
+  ]
+}
