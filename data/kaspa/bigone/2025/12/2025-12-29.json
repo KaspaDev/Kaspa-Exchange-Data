@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 0.04488,
+  "high": 0.0452,
+  "low": 0.04476,
+  "close": 0.04477,
+  "volume": null,
+  "quoteVolume": 201772004.87822887,
+  "change": -0.00011000000000000593,
+  "percentage": -0.24509803921569945,
+  "trades": 3636,
+  "avgPrice": 0.0449804702970297,
+  "vwap": null,
+  "timestamp": 1766860519562,
+  "lastUpdate": 1766987351454,
+  "token": "kaspa",
+  "exchange": "bigone"
+}
