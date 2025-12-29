@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87560.50106,
+  "high": 87560.50106,
+  "low": 87560.50106,
+  "close": 87560.50106,
+  "volume": null,
+  "quoteVolume": 15388562.0405151,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87560.50106,
+  "vwap": null,
+  "timestamp": 1766956754211,
+  "lastUpdate": 1766956754211,
+  "token": "btc",
+  "exchange": "bullish"
+}
