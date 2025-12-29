@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87573.11,
+  "high": 87584.34,
+  "low": 87573.11,
+  "close": 87584.34,
+  "volume": null,
+  "quoteVolume": 33628878.6822868,
+  "change": 11.229999999995925,
+  "percentage": 0.012823571071069562,
+  "trades": 2,
+  "avgPrice": 87578.725,
+  "vwap": null,
+  "timestamp": 1766956585586,
+  "lastUpdate": 1766956698000,
+  "token": "btc",
+  "exchange": "bequant"
+}
