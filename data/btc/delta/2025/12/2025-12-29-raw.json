@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "delta",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "delta",
+      "symbol": "BTC/USDT",
+      "last": 87568.5,
+      "bid": null,
+      "ask": null,
+      "open": 87639.0,
+      "close": 87568.5,
+      "high": 88011.5,
+      "low": 87470.5,
+      "average": 87603.7,
+      "vwap": 1.0,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1.2281919999999995,
+      "quoteVolume": 1.2281919999999995,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -70.5,
+      "percentage": -0.0804436381063225,
+      "timestamp": 1766956792375,
+      "datetime": "2025-12-28T21:19:52.375Z",
+      "exchange_timestamp": "2025-12-28T21:19:53.352263",
+      "data_source": "official_exchange_api",
+      "exchange_id": "delta"
+    }
+  ]
+}
