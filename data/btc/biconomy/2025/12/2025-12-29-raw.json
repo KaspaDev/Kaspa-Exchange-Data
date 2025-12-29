@@ -1,0 +1,63 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "biconomy",
+  "resolution": "1m",
+  "count": 3,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "biconomy",
+      "symbol": "BTC_USDT",
+      "timestamp": 1766956574796,
+      "datetime": "2025-12-28T21:16:14.796171",
+      "exchange_timestamp": "2025-12-28T21:16:14.796173",
+      "data_source": "official_exchange_api",
+      "exchange_id": "biconomy",
+      "last": 87573.81,
+      "bid": 87556.32,
+      "ask": 87556.33,
+      "high": 88087.99,
+      "low": 87435.12,
+      "volume": 7594.81199,
+      "baseVolume": 7594.81199,
+      "quoteVolume": null
+    },
+    {
+      "token": "BTC",
+      "exchange": "biconomy",
+      "symbol": "BTC_USDT",
+      "timestamp": 1766956678340,
+      "datetime": "2025-12-28T21:17:58.340891",
+      "exchange_timestamp": "2025-12-28T21:17:58.340896",
+      "data_source": "official_exchange_api",
+      "exchange_id": "biconomy",
+      "last": 87583.76,
+      "bid": 87583.76,
+      "ask": 87583.77,
+      "high": 88087.99,
+      "low": 87435.12,
+      "volume": 7597.54777,
+      "baseVolume": 7597.54777,
+      "quoteVolume": null
+    },
+    {
+      "token": "BTC",
+      "exchange": "biconomy",
+      "symbol": "BTC_USDT",
+      "timestamp": 1766956687106,
+      "datetime": "2025-12-28T21:18:07.106648",
+      "exchange_timestamp": "2025-12-28T21:18:07.106651",
+      "data_source": "official_exchange_api",
+      "exchange_id": "biconomy",
+      "last": 87583.76,
+      "bid": 87583.76,
+      "ask": 87583.77,
+      "high": 88087.99,
+      "low": 87435.12,
+      "volume": 7594.29495,
+      "baseVolume": 7594.29495,
+      "quoteVolume": null
+    }
+  ]
+}
