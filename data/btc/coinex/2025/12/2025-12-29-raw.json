@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "coinex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "coinex",
+      "symbol": "BTC/USDT",
+      "last": 87547.0,
+      "bid": null,
+      "ask": null,
+      "open": 87591.0,
+      "close": 87547.0,
+      "high": 88096.0,
+      "low": 87450.0,
+      "average": 87569.0,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 131.19229352,
+      "quoteVolume": 11485491.72079544,
+      "bidVolume": 0.71939256,
+      "askVolume": 2.57732747,
+      "change": -44.0,
+      "percentage": -0.0502334714753798,
+      "timestamp": 1766956776059,
+      "datetime": "2025-12-28T21:19:36.059627",
+      "exchange_timestamp": "2025-12-28T21:19:36.059628",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinex"
+    }
+  ]
+}
