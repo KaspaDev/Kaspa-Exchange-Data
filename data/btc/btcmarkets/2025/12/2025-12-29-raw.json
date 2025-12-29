@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "btcmarkets",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "btcmarkets",
+      "symbol": "BTC/USDT",
+      "last": 96726.52,
+      "bid": 83140.13,
+      "ask": 92084.46,
+      "open": null,
+      "close": 96726.52,
+      "high": null,
+      "low": null,
+      "average": null,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.0,
+      "quoteVolume": 0.0,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956745626,
+      "datetime": "2025-12-28T21:19:05.626Z",
+      "exchange_timestamp": "2025-12-28T21:19:14.216273",
+      "data_source": "official_exchange_api",
+      "exchange_id": "btcmarkets"
+    }
+  ]
+}
