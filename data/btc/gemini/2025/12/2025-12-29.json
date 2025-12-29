@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87597.87,
+  "high": 87597.87,
+  "low": 87597.87,
+  "close": 87597.87,
+  "volume": null,
+  "quoteVolume": 17362.7799445509,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87597.87,
+  "vwap": null,
+  "timestamp": 1766956822000,
+  "lastUpdate": 1766956822000,
+  "token": "btc",
+  "exchange": "gemini"
+}
