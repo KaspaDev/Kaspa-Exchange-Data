@@ -3,7 +3,7 @@
   "token": "kaspa",
   "exchange": "bingx",
   "resolution": "1m",
-  "count": 20,
+  "count": 19,
   "data": [
     {
       "token": "Kaspa",
@@ -515,33 +515,6 @@
       "timestamp": 1766861036894,
       "datetime": "2025-12-27T18:43:56.894Z",
       "exchange_timestamp": "2025-12-27T18:43:57.194432",
-      "data_source": "official_exchange_api",
-      "exchange_id": "bingx"
-    },
-    {
-      "token": "Kaspa",
-      "exchange": "bingx",
-      "symbol": "KAS/USDT",
-      "last": 0.04479,
-      "bid": 0.04477,
-      "ask": 0.0448,
-      "open": 0.04495,
-      "close": 0.04479,
-      "high": 0.04509,
-      "low": 0.04416,
-      "average": 0.04487,
-      "vwap": 0.04477203944634126,
-      "previousClose": null,
-      "volume": null,
-      "baseVolume": 2659927.3,
-      "quoteVolume": 119090.37,
-      "bidVolume": 2098.1,
-      "askVolume": 2025.0,
-      "change": -0.00016,
-      "percentage": -0.36,
-      "timestamp": 1766861064152,
-      "datetime": "2025-12-27T18:44:24.152Z",
-      "exchange_timestamp": "2025-12-27T18:44:24.298791",
       "data_source": "official_exchange_api",
       "exchange_id": "bingx"
     }
