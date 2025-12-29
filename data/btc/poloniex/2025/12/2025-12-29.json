@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87527.72,
+  "high": 87527.72,
+  "low": 87527.72,
+  "close": 87527.72,
+  "volume": null,
+  "quoteVolume": 213270767.77956262,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87527.72,
+  "vwap": null,
+  "timestamp": 1766956901849,
+  "lastUpdate": 1766956901849,
+  "token": "btc",
+  "exchange": "poloniex"
+}
