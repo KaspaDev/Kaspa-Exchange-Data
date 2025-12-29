@@ -3,7 +3,7 @@
   "token": "krex",
   "exchange": "coinex",
   "resolution": "1m",
-  "count": 20,
+  "count": 21,
   "data": [
     {
       "token": "Krex",
@@ -542,6 +542,33 @@
       "timestamp": 1766861040566,
       "datetime": "2025-12-27T18:44:00.566202",
       "exchange_timestamp": "2025-12-27T18:44:00.566204",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinex"
+    },
+    {
+      "token": "Krex",
+      "exchange": "coinex",
+      "symbol": "KREX/USDT",
+      "last": 2.1871e-06,
+      "bid": null,
+      "ask": null,
+      "open": 2.3545e-06,
+      "close": 2.1871e-06,
+      "high": 3.3394e-06,
+      "low": 2.0786e-06,
+      "average": 2.2708e-06,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1583945312.1258862,
+      "quoteVolume": 3464.246792150526,
+      "bidVolume": 625418927.24193,
+      "askVolume": 560727670.7147597,
+      "change": -1.674e-07,
+      "percentage": -7.109789764281164,
+      "timestamp": 1766861070302,
+      "datetime": "2025-12-27T18:44:30.302985",
+      "exchange_timestamp": "2025-12-27T18:44:30.302986",
       "data_source": "official_exchange_api",
       "exchange_id": "coinex"
     }
