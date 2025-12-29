@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87542.11,
+  "high": 87542.11,
+  "low": 87542.11,
+  "close": 87542.11,
+  "volume": null,
+  "quoteVolume": 301514229.0,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87542.11,
+  "vwap": null,
+  "timestamp": 1766956873767,
+  "lastUpdate": 1766956873767,
+  "token": "btc",
+  "exchange": "mexc"
+}
