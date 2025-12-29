@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "luno",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "luno",
+      "symbol": "BTC/USDT",
+      "last": 87651.1199,
+      "bid": 87170.7934,
+      "ask": 87568.2834,
+      "open": null,
+      "close": 87651.1199,
+      "high": null,
+      "low": null,
+      "average": null,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.3786,
+      "quoteVolume": 33184.71399414,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956866116,
+      "datetime": "2025-12-28T21:21:06.116Z",
+      "exchange_timestamp": "2025-12-28T21:21:06.163146",
+      "data_source": "official_exchange_api",
+      "exchange_id": "luno"
+    }
+  ]
+}
