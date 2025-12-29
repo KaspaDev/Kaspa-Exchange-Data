@@ -1,0 +1,364 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Kaspa Exchange Data API",
+    "version": "0.1.0",
+    "description": "Production-ready REST API gateway for accessing Kaspa exchange data from GitHub repositories with Redis caching, rate limiting, and comprehensive observability.",
+    "contact": {
+      "name": "KaspaDev",
+      "url": "https://github.com/KaspaDev/Kaspa-Exchange-Data"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3010",
+      "description": "Local development server"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": ["system"],
+        "summary": "Health check endpoint",
+        "description": "Returns the health status of the API and its dependencies (Redis)",
+        "operationId": "health_handler",
+        "responses": {
+          "200": {
+            "description": "Health check passed - all dependencies healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                },
+                "example": {
+                  "status": "ok",
+                  "version": "0.1.0",
+                  "mode": "read-only",
+                  "backend": "rust-axum-onion",
+                  "config": "yaml",
+                  "dependencies": {
+                    "redis": "healthy"
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service degraded or unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                },
+                "example": {
+                  "status": "degraded",
+                  "version": "0.1.0",
+                  "mode": "read-only",
+                  "backend": "rust-axum-onion",
+                  "config": "yaml",
+                  "dependencies": {
+                    "redis": "unavailable"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/metrics": {
+      "get": {
+        "tags": ["system"],
+        "summary": "Prometheus metrics endpoint",
+        "description": "Returns metrics in Prometheus format for monitoring cache performance, API usage, and system health",
+        "operationId": "metrics_handler",
+        "responses": {
+          "200": {
+            "description": "Prometheus metrics",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "# HELP api_requests_total Total API requests\n# TYPE api_requests_total counter\napi_requests_total{endpoint=\"content\",source=\"github\"} 142\n# HELP cache_operations_total Cache operations\n# TYPE cache_operations_total counter\ncache_operations_total{operation=\"hit\"} 89\ncache_operations_total{operation=\"miss\"} 53"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/api/{source}/{owner}/{repo}/{path}": {
+      "get": {
+        "tags": ["content"],
+        "summary": "Retrieve repository content",
+        "description": "Get file content or directory listing from a GitHub repository. Supports aggregation mode for combining multiple files.",
+        "operationId": "content_handler",
+        "parameters": [
+          {
+            "name": "source",
+            "in": "path",
+            "description": "Source platform",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "github"
+          },
+          {
+            "name": "owner",
+            "in": "path",
+            "description": "Repository owner/organization",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "KaspaDev"
+          },
+          {
+            "name": "repo",
+            "in": "path",
+            "description": "Repository name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "Kaspa-Exchange-Data"
+          },
+          {
+            "name": "path",
+            "in": "path",
+            "description": "File or directory path in repository",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "data/tbdai/ascendex/2025/12/2025-12-28-raw.json"
+          },
+          {
+            "name": "aggregate",
+            "in": "query",
+            "description": "Enable aggregation mode to combine multiple files",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "example": "true"
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Page number for pagination (1-10000)",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 1,
+              "minimum": 1,
+              "maximum": 10000
+            },
+            "example": 1
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Number of items per page (1-100)",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 30,
+              "minimum": 1,
+              "maximum": 100
+            },
+            "example": 30
+          },
+          {
+            "name": "start",
+            "in": "query",
+            "description": "Start date filter for aggregation (YYYY-MM-DD format)",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            },
+            "example": "2025-12-01"
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "description": "End date filter for aggregation (YYYY-MM-DD format)",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            },
+            "example": "2025-12-31"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Content retrieved successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "examples": {
+                  "singleFile": {
+                    "summary": "Single file response",
+                    "value": {
+                      "name": "2025-12-28-raw.json",
+                      "type": "file",
+                      "path": "data/tbdai/ascendex/2025/12/2025-12-28-raw.json"
+                    }
+                  },
+                  "aggregation": {
+                    "summary": "Aggregated response",
+                    "value": {
+                      "total_count": 31,
+                      "total_pages": 2,
+                      "current_page": 1,
+                      "limit": 30,
+                      "data": []
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - Invalid parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "Invalid parameters: page must be less than or equal to 10000"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Access Forbidden - Repository not whitelisted",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "Access denied for repository: github/UnknownOrg/PrivateRepo/data"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found - Resource does not exist",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "Resource not found: github/KaspaDev/Kaspa-Exchange-Data/invalid/path"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": "Internal server error processing: github/KaspaDev/Kaspa-Exchange-Data/data"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HealthResponse": {
+        "type": "object",
+        "required": ["status", "version", "mode", "backend", "config", "dependencies"],
+        "properties": {
+          "status": {
+            "type": "string",
+            "description": "Overall health status",
+            "enum": ["ok", "degraded"]
+          },
+          "version": {
+            "type": "string",
+            "description": "API version"
+          },
+          "mode": {
+            "type": "string",
+            "description": "API operation mode"
+          },
+          "backend": {
+            "type": "string",
+            "description": "Backend technology stack"
+          },
+          "config": {
+            "type": "string",
+            "description": "Configuration method"
+          },
+          "dependencies": {
+            "$ref": "#/components/schemas/HealthDependencies"
+          }
+        }
+      },
+      "HealthDependencies": {
+        "type": "object",
+        "required": ["redis"],
+        "properties": {
+          "redis": {
+            "type": "string",
+            "description": "Redis connection status",
+            "enum": ["healthy", "unavailable", "error"]
+          }
+        }
+      },
+      "AggregateQuery": {
+        "type": "object",
+        "properties": {
+          "aggregate": {
+            "type": "string",
+            "description": "Enable aggregation mode",
+            "example": "true"
+          },
+          "page": {
+            "type": "integer",
+            "description": "Page number",
+            "minimum": 1,
+            "maximum": 10000,
+            "default": 1,
+            "example": 1
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Items per page",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 30,
+            "example": 30
+          },
+          "start": {
+            "type": "string",
+            "format": "date",
+            "description": "Start date filter (YYYY-MM-DD)",
+            "example": "2025-12-01"
+          },
+          "end": {
+            "type": "string",
+            "format": "date",
+            "description": "End date filter (YYYY-MM-DD)",
+            "example": "2025-12-31"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "system",
+      "description": "System endpoints for health checks and metrics"
+    },
+    {
+      "name": "content",
+      "description": "Content retrieval endpoints for accessing repository data"
+    }
+  ]
+}

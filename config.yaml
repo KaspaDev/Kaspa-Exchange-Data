@@ -1,0 +1,11 @@
+server:
+  host: "0.0.0.0"
+  port: 3010
+  # CORS allowed origins - update with your frontend domains in production
+  # Use comma-separated list for multiple origins, or "*" for permissive (dev only)
+  allowed_origins: "*"
+
+allowed_repos:
+  - source: "github"
+    owner: "KaspaDev"
+    repo: "Kaspa-Exchange-Data"
