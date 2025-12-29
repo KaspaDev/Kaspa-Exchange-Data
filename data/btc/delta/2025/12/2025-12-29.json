@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87568.5,
+  "high": 87568.5,
+  "low": 87568.5,
+  "close": 87568.5,
+  "volume": null,
+  "quoteVolume": 1.2281919999999995,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87568.5,
+  "vwap": null,
+  "timestamp": 1766956792375,
+  "lastUpdate": 1766956792375,
+  "token": "btc",
+  "exchange": "delta"
+}
