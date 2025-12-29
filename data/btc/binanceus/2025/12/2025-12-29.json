@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87627.53,
+  "high": 87627.53,
+  "low": 87625.92,
+  "close": 87625.92,
+  "volume": null,
+  "quoteVolume": 503538.013453,
+  "change": -1.610000000000582,
+  "percentage": -0.00183732212924475,
+  "trades": 2,
+  "avgPrice": 87626.725,
+  "vwap": null,
+  "timestamp": 1766956591443,
+  "lastUpdate": 1766956703243,
+  "token": "btc",
+  "exchange": "binanceus"
+}
