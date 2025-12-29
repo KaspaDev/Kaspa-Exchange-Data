@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "hashkey",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "hashkey",
+      "symbol": "BTC/USDT",
+      "last": 87560.28,
+      "bid": 87551.67,
+      "ask": 87551.77,
+      "open": 87572.86,
+      "close": 87560.28,
+      "high": 87962.86,
+      "low": 87504.99,
+      "average": 87566.57,
+      "vwap": 87753.74913030764,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.17098,
+      "quoteVolume": 15004.1360263,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -12.58,
+      "percentage": -0.0143651811759944,
+      "timestamp": 1766956800002,
+      "datetime": "2025-12-28T21:20:00.002Z",
+      "exchange_timestamp": "2025-12-28T21:20:25.890699",
+      "data_source": "official_exchange_api",
+      "exchange_id": "hashkey"
+    }
+  ]
+}
