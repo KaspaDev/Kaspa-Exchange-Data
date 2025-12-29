@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87530.75,
+  "high": 87530.75,
+  "low": 87530.75,
+  "close": 87530.75,
+  "volume": null,
+  "quoteVolume": 120399433.0320125,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87530.75,
+  "vwap": null,
+  "timestamp": 1766956910283,
+  "lastUpdate": 1766956910283,
+  "token": "btc",
+  "exchange": "toobit"
+}
