@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87624.0,
+  "high": 87624.0,
+  "low": 87624.0,
+  "close": 87624.0,
+  "volume": null,
+  "quoteVolume": 203316.72209855999,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87624.0,
+  "vwap": null,
+  "timestamp": 1766956755014,
+  "lastUpdate": 1766956755014,
+  "token": "btc",
+  "exchange": "btcturk"
+}
