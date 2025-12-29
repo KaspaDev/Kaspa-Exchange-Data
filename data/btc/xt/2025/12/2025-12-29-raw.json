@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "xt",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "xt",
+      "symbol": "BTC/USDT",
+      "last": 87530.74,
+      "bid": null,
+      "ask": null,
+      "open": 87634.39,
+      "close": 87530.74,
+      "high": 88088.0,
+      "low": 87435.13,
+      "average": 87582.56,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": null,
+      "quoteVolume": 190047255.2218796,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -103.65,
+      "percentage": -0.11,
+      "timestamp": 1766956919726,
+      "datetime": "2025-12-28T21:21:59.726Z",
+      "exchange_timestamp": "2025-12-28T21:22:01.607562",
+      "data_source": "official_exchange_api",
+      "exchange_id": "xt"
+    }
+  ]
+}
