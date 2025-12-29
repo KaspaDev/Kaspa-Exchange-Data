@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87548.8,
+  "high": 87579.5,
+  "low": 87548.8,
+  "close": 87579.5,
+  "volume": 13271.39229,
+  "quoteVolume": 1164971515.28297,
+  "change": 30.69999999999709,
+  "percentage": 0.035066157388790126,
+  "trades": 3,
+  "avgPrice": 87569.26666666666,
+  "vwap": 87780.65555041851,
+  "timestamp": 1766956578209,
+  "lastUpdate": 1766956691397,
+  "token": "bitcoin",
+  "exchange": "fameex"
+}
