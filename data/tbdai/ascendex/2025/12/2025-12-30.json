@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 0.05353,
+  "high": 0.05353,
+  "low": 0.05353,
+  "close": 0.05353,
+  "volume": null,
+  "quoteVolume": 50657.31255,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 0.05353,
+  "vwap": null,
+  "timestamp": 1767073566187,
+  "lastUpdate": 1767073566187,
+  "token": "tbdai",
+  "exchange": "ascendex"
+}
