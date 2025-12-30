@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 0.04309,
+  "high": 0.04323,
+  "low": 0.04309,
+  "close": 0.04323,
+  "volume": null,
+  "quoteVolume": 1786990.1321999999,
+  "change": 0.0001399999999999943,
+  "percentage": 0.32490136922718565,
+  "trades": 5,
+  "avgPrice": 0.043138,
+  "vwap": null,
+  "timestamp": 1767073583665,
+  "lastUpdate": 1767074089891,
+  "token": "kaspa",
+  "exchange": "lbank"
+}
