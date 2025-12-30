@@ -3,7 +3,7 @@
   "token": "kasper",
   "exchange": "ascendex",
   "resolution": "1m",
-  "count": 9,
+  "count": 10,
   "data": [
     {
       "token": "Kasper",
@@ -245,6 +245,33 @@
       "timestamp": 1767074469822,
       "datetime": "2025-12-30T06:01:09.822598",
       "exchange_timestamp": "2025-12-30T06:01:09.822603",
+      "data_source": "official_exchange_api",
+      "exchange_id": "ascendex"
+    },
+    {
+      "token": "Kasper",
+      "exchange": "ascendex",
+      "symbol": "KASPER/USDT",
+      "last": 1.83e-05,
+      "bid": 1.79e-05,
+      "ask": 1.85e-05,
+      "open": 1.84e-05,
+      "close": 1.83e-05,
+      "high": 1.84e-05,
+      "low": 1.8e-05,
+      "average": 1.83e-05,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2893158754.0,
+      "quoteVolume": 52944.8051982,
+      "bidVolume": 285242.0,
+      "askVolume": 285510.0,
+      "change": -1e-07,
+      "percentage": -0.5434782608695652,
+      "timestamp": 1767074582644,
+      "datetime": "2025-12-30T06:03:02.644452",
+      "exchange_timestamp": "2025-12-30T06:03:02.644455",
       "data_source": "official_exchange_api",
       "exchange_id": "ascendex"
     }
