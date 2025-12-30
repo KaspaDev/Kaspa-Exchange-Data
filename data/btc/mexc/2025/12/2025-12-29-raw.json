@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "mexc",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "mexc",
+      "symbol": "BTC/USDT",
+      "last": 87542.11,
+      "bid": 87541.61,
+      "ask": 87542.5,
+      "open": 87634.84,
+      "close": 87542.11,
+      "high": 88091.41,
+      "low": 87442.57,
+      "average": 87588.47,
+      "vwap": 87785.20312107612,
+      "previousClose": 87634.84,
+      "volume": null,
+      "baseVolume": 3434.68168074,
+      "quoteVolume": 301514229.0,
+      "bidVolume": 3.60976,
+      "askVolume": 2.2763623,
+      "change": -92.73,
+      "percentage": -0.1,
+      "timestamp": 1766956873767,
+      "datetime": "2025-12-28T21:21:13.767Z",
+      "exchange_timestamp": "2025-12-28T21:21:13.769294",
+      "data_source": "official_exchange_api",
+      "exchange_id": "mexc"
+    }
+  ]
+}

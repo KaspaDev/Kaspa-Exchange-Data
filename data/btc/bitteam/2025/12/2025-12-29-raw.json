@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "bitteam",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "bitteam",
+      "symbol": "BTC/USDT",
+      "last": 87584.0,
+      "bid": 87584.0,
+      "ask": 88136.0,
+      "open": 87444.08945686901,
+      "close": 87584.0,
+      "high": 93380.0,
+      "low": 87032.0,
+      "average": 87514.044728,
+      "vwap": 89876.99223303629,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.00169359,
+      "quoteVolume": 152.21477527594794,
+      "bidVolume": 0.0001488,
+      "askVolume": 0.00021972,
+      "change": 139.91054313099042,
+      "percentage": 0.16,
+      "timestamp": 1766956743331,
+      "datetime": "2025-12-28T21:19:03.331959",
+      "exchange_timestamp": "2025-12-28T21:19:03.331961",
+      "data_source": "official_exchange_api",
+      "exchange_id": "bitteam"
+    }
+  ]
+}

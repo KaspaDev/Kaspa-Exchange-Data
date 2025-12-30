@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87701.899281,
+  "high": 87701.899281,
+  "low": 87701.899281,
+  "close": 87701.899281,
+  "volume": null,
+  "quoteVolume": 15058.68766894,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87701.899281,
+  "vwap": null,
+  "timestamp": 1766956845000,
+  "lastUpdate": 1766956845000,
+  "token": "btc",
+  "exchange": "indodax"
+}

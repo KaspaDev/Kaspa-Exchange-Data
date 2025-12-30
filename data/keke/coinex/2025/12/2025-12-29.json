@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 1.493e-07,
+  "high": 1.505e-07,
+  "low": 1.478e-07,
+  "close": 1.497e-07,
+  "volume": null,
+  "quoteVolume": 1369233.9385669054,
+  "change": 4.000000000000036e-10,
+  "percentage": 0.2679169457468209,
+  "trades": 505,
+  "avgPrice": 1.4928851485148516e-07,
+  "vwap": null,
+  "timestamp": 1766961557742,
+  "lastUpdate": 1766987372842,
+  "token": "keke",
+  "exchange": "coinex"
+}

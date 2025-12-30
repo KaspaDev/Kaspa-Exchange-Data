@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87542.1,
+  "high": 87542.1,
+  "low": 87542.1,
+  "close": 87542.1,
+  "volume": null,
+  "quoteVolume": 132428246.31071135,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87542.1,
+  "vwap": null,
+  "timestamp": 1766956851050,
+  "lastUpdate": 1766956851050,
+  "token": "btc",
+  "exchange": "kucoin"
+}

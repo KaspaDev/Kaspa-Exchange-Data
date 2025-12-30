@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 1.81e-05,
+  "high": 1.84e-05,
+  "low": 1.8e-05,
+  "close": 1.82e-05,
+  "volume": null,
+  "quoteVolume": 2806573.5198694,
+  "change": 9.999999999999904e-08,
+  "percentage": 0.5524861878452986,
+  "trades": 51,
+  "avgPrice": 1.8194117647058825e-05,
+  "vwap": null,
+  "timestamp": 1766984406611,
+  "lastUpdate": 1766987384938,
+  "token": "kasper",
+  "exchange": "ascendex"
+}

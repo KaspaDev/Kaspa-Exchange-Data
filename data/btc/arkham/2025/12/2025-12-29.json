@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87491.23,
+  "high": 87491.23,
+  "low": 87491.23,
+  "close": 87491.23,
+  "volume": null,
+  "quoteVolume": 672806.977395,
+  "change": 0,
+  "percentage": 0,
+  "trades": 2,
+  "avgPrice": 87491.23,
+  "vwap": null,
+  "timestamp": 1766956580725,
+  "lastUpdate": 1766956693519,
+  "token": "btc",
+  "exchange": "arkham"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87535.6,
+  "high": 87535.6,
+  "low": 87535.6,
+  "close": 87535.6,
+  "volume": null,
+  "quoteVolume": 261785971.55059695,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87535.6,
+  "vwap": null,
+  "timestamp": 1766956875605,
+  "lastUpdate": 1766956875605,
+  "token": "btc",
+  "exchange": "myokx"
+}

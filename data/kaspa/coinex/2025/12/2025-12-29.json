@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 0.045229,
+  "high": 0.045229,
+  "low": 0.04507,
+  "close": 0.045101,
+  "volume": null,
+  "quoteVolume": 2551171.8269301904,
+  "change": -0.00012799999999999617,
+  "percentage": -0.2830042671737075,
+  "trades": 50,
+  "avgPrice": 0.0451258,
+  "vwap": null,
+  "timestamp": 1766984440804,
+  "lastUpdate": 1766987349304,
+  "token": "kaspa",
+  "exchange": "coinex"
+}

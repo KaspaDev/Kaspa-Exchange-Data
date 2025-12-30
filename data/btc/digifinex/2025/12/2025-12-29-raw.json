@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "digifinex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "digifinex",
+      "symbol": "BTC/USDT",
+      "last": 87563.52,
+      "bid": 87563.52,
+      "ask": 87563.53,
+      "open": 87633.62690152122,
+      "close": 87563.52,
+      "high": 88088.17,
+      "low": 87440.63,
+      "average": 87598.57,
+      "vwap": 87803.30482667575,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2491.9891716,
+      "quoteVolume": 218804884.85877,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -70.10690152121697,
+      "percentage": -0.08,
+      "timestamp": 1766956801000,
+      "datetime": "2025-12-28T21:20:01.000Z",
+      "exchange_timestamp": "2025-12-28T21:20:01.186410",
+      "data_source": "official_exchange_api",
+      "exchange_id": "digifinex"
+    }
+  ]
+}

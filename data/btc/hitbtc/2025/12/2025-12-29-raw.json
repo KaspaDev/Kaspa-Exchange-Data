@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "hitbtc",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "hitbtc",
+      "symbol": "BTC/USDT",
+      "last": 87539.34,
+      "bid": 87520.53,
+      "ask": 87550.87,
+      "open": 87636.67,
+      "close": 87539.34,
+      "high": 88023.61,
+      "low": 87464.9,
+      "average": 87588.0,
+      "vwap": 87782.3845298949,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 193.3423,
+      "quoteVolume": 16972048.1244943,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -97.33,
+      "percentage": -0.1110608150674825,
+      "timestamp": 1766956827522,
+      "datetime": "2025-12-28T21:20:27.522Z",
+      "exchange_timestamp": "2025-12-28T21:20:28.491658",
+      "data_source": "official_exchange_api",
+      "exchange_id": "hitbtc"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "ndax",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "ndax",
+      "symbol": "BTC/USDT",
+      "last": 29869.01,
+      "bid": 1.0,
+      "ask": null,
+      "open": null,
+      "close": 29869.01,
+      "high": null,
+      "low": null,
+      "average": null,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.0,
+      "quoteVolume": 0.0,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1765655880589,
+      "datetime": "2025-12-13T19:58:00.589Z",
+      "exchange_timestamp": "2025-12-28T21:21:24.333983",
+      "data_source": "official_exchange_api",
+      "exchange_id": "ndax"
+    }
+  ]
+}

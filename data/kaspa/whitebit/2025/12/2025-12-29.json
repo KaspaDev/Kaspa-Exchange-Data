@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 0.0447,
+  "high": 0.0447,
+  "low": 0.0447,
+  "close": 0.0447,
+  "volume": null,
+  "quoteVolume": 2309.4280000000017,
+  "change": 0,
+  "percentage": 0,
+  "trades": 50,
+  "avgPrice": 0.0447,
+  "vwap": null,
+  "timestamp": 1766984448096,
+  "lastUpdate": 1766987371218,
+  "token": "kaspa",
+  "exchange": "whitebit"
+}

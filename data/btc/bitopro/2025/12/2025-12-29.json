@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87626.93,
+  "high": 87626.93,
+  "low": 87626.93,
+  "close": 87626.93,
+  "volume": null,
+  "quoteVolume": 3742602.790801857,
+  "change": 0,
+  "percentage": 0,
+  "trades": 2,
+  "avgPrice": 87626.93,
+  "vwap": null,
+  "timestamp": 1766956631091,
+  "lastUpdate": 1766956734874,
+  "token": "btc",
+  "exchange": "bitopro"
+}

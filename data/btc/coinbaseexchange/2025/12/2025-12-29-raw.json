@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "coinbaseexchange",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "coinbaseexchange",
+      "symbol": "BTC/USDT",
+      "last": 87552.52,
+      "bid": 87578.92,
+      "ask": 87578.93,
+      "open": null,
+      "close": 87552.52,
+      "high": null,
+      "low": null,
+      "average": null,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 34.20915324,
+      "quoteVolume": 2995097.573228165,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956761894,
+      "datetime": "2025-12-28T21:19:21.894Z",
+      "exchange_timestamp": "2025-12-28T21:19:29.448674",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinbaseexchange"
+    }
+  ]
+}

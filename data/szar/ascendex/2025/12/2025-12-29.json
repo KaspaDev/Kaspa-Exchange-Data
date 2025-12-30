@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 6.8e-08,
+  "high": 6.9e-08,
+  "low": 6.4e-08,
+  "close": 6.5e-08,
+  "volume": null,
+  "quoteVolume": 3053594.4580259994,
+  "change": -3.0000000000000004e-09,
+  "percentage": -4.411764705882353,
+  "trades": 51,
+  "avgPrice": 6.71764705882353e-08,
+  "vwap": null,
+  "timestamp": 1766984411055,
+  "lastUpdate": 1766987379523,
+  "token": "szar",
+  "exchange": "ascendex"
+}

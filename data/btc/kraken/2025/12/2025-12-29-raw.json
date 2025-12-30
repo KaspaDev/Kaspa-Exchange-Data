@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "kraken",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "kraken",
+      "symbol": "BTC/USDT",
+      "last": 87554.9,
+      "bid": 87541.8,
+      "ask": 87541.9,
+      "open": 87879.9,
+      "close": 87554.9,
+      "high": 88057.6,
+      "low": 87450.0,
+      "average": 87717.4,
+      "vwap": 87756.06083,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 34.17026344,
+      "quoteVolume": 2998647.717017765,
+      "bidVolume": 1.0,
+      "askVolume": 1.0,
+      "change": -325.0,
+      "percentage": -0.3698229060342581,
+      "timestamp": 1766956850301,
+      "datetime": "2025-12-28T21:20:50.301578",
+      "exchange_timestamp": "2025-12-28T21:20:50.301580",
+      "data_source": "official_exchange_api",
+      "exchange_id": "kraken"
+    }
+  ]
+}

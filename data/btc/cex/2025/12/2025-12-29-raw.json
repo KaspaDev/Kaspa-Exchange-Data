@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "cex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "cex",
+      "symbol": "BTC/USDT",
+      "last": 87584.4,
+      "bid": 87535.6,
+      "ask": 87584.4,
+      "open": 87636.5,
+      "close": 87584.4,
+      "high": 88318.5,
+      "low": 87618.7,
+      "average": 87610.4,
+      "vwap": 87681.49981524951,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.15891704,
+      "quoteVolume": 13934.0844134,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -52.1,
+      "percentage": -0.05,
+      "timestamp": 1766956763330,
+      "datetime": "2025-12-28T21:19:23.330082",
+      "exchange_timestamp": "2025-12-28T21:19:23.330084",
+      "data_source": "official_exchange_api",
+      "exchange_id": "cex"
+    }
+  ]
+}

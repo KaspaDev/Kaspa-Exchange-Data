@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87584.0,
+  "high": 87584.0,
+  "low": 87584.0,
+  "close": 87584.0,
+  "volume": null,
+  "quoteVolume": 152.21477527594794,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87584.0,
+  "vwap": null,
+  "timestamp": 1766956743331,
+  "lastUpdate": 1766956743331,
+  "token": "btc",
+  "exchange": "bitteam"
+}

@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "hollaex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "hollaex",
+      "symbol": "BTC/USDT",
+      "last": 87484.9,
+      "bid": null,
+      "ask": null,
+      "open": 87555.64,
+      "close": 87484.9,
+      "high": 87985.49,
+      "low": 87386.29,
+      "average": 87520.27,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.089937,
+      "quoteVolume": 7868.129451299999,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -70.74,
+      "percentage": -0.0807943383201813,
+      "timestamp": 1766870422261,
+      "datetime": "2025-12-27T21:20:22.261Z",
+      "exchange_timestamp": "2025-12-28T21:20:31.508068",
+      "data_source": "official_exchange_api",
+      "exchange_id": "hollaex"
+    }
+  ]
+}

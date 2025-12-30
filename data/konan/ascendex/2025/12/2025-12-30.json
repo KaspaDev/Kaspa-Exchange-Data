@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 7.88e-07,
+  "high": 7.88e-07,
+  "low": 7.72e-07,
+  "close": 7.77e-07,
+  "volume": null,
+  "quoteVolume": 495968.775865585,
+  "change": -1.099999999999998e-08,
+  "percentage": -1.3959390862944137,
+  "trades": 9,
+  "avgPrice": 7.811111111111111e-07,
+  "vwap": null,
+  "timestamp": 1767073566188,
+  "lastUpdate": 1767074469006,
+  "token": "konan",
+  "exchange": "ascendex"
+}

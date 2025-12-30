@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87848.94,
+  "high": 87848.94,
+  "low": 87848.94,
+  "close": 87848.94,
+  "volume": null,
+  "quoteVolume": null,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87848.94,
+  "vwap": null,
+  "timestamp": 1766956771257,
+  "lastUpdate": 1766956771257,
+  "token": "btc",
+  "exchange": "coincatch"
+}

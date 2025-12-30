@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 2.795e-05,
+  "high": 2.929e-05,
+  "low": 2.758e-05,
+  "close": 2.929e-05,
+  "volume": null,
+  "quoteVolume": 77883.06977199785,
+  "change": 1.3400000000000007e-06,
+  "percentage": 4.7942754919499135,
+  "trades": 8,
+  "avgPrice": 2.812625e-05,
+  "vwap": null,
+  "timestamp": 1767073575757,
+  "lastUpdate": 1767074330904,
+  "token": "ghoad",
+  "exchange": "coinex"
+}

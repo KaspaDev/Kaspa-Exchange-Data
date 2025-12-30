@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "p2b",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "p2b",
+      "symbol": "BTC/USDT",
+      "last": 87542.05,
+      "bid": 87542.05,
+      "ask": 87542.06,
+      "open": 87634.4,
+      "close": 87542.05,
+      "high": 88082.35,
+      "low": 87447.59,
+      "average": 87588.22,
+      "vwap": 87781.90716989565,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1079.128005,
+      "quoteVolume": 94727914.3593447,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -92.35,
+      "percentage": -0.1,
+      "timestamp": 1766956897222,
+      "datetime": "2025-12-28T21:21:37.222553",
+      "exchange_timestamp": "2025-12-28T21:21:37.222555",
+      "data_source": "official_exchange_api",
+      "exchange_id": "p2b"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "kaspa",
+  "exchange": "poloniex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "Kaspa",
+      "exchange": "poloniex",
+      "symbol": "KAS/USDT",
+      "last": 0.04282,
+      "bid": 0.04282,
+      "ask": 0.04889,
+      "open": 0.04482,
+      "close": 0.04282,
+      "high": 0.04889,
+      "low": 0.04282,
+      "average": 0.04382,
+      "vwap": 0.048554656763389346,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 9573.935,
+      "quoteVolume": 464.8591278,
+      "bidVolume": 77.475,
+      "askVolume": 2236.386,
+      "change": -0.002,
+      "percentage": -4.46,
+      "timestamp": 1767061053347,
+      "datetime": "2025-12-30T02:17:33.347Z",
+      "exchange_timestamp": "2025-12-30T05:46:26.371297",
+      "data_source": "official_exchange_api",
+      "exchange_id": "poloniex"
+    }
+  ]
+}

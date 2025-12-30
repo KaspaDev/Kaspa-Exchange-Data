@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87525.53,
+  "high": 87525.53,
+  "low": 87525.53,
+  "close": 87525.53,
+  "volume": null,
+  "quoteVolume": 15208934.35247051,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87525.53,
+  "vwap": null,
+  "timestamp": 1766956803000,
+  "lastUpdate": 1766956803000,
+  "token": "btc",
+  "exchange": "exmo"
+}

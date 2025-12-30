@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 75949.0,
+  "high": 75949.0,
+  "low": 75949.0,
+  "close": 75949.0,
+  "volume": null,
+  "quoteVolume": 15.9189104,
+  "change": 0,
+  "percentage": 0,
+  "trades": 2,
+  "avgPrice": 75949.0,
+  "vwap": null,
+  "timestamp": 1766956601112,
+  "lastUpdate": 1766956712469,
+  "token": "btc",
+  "exchange": "bitbns"
+}

@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "fmfwio",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "fmfwio",
+      "symbol": "BTC/USDT",
+      "last": 87566.79,
+      "bid": 87533.13,
+      "ask": 87550.87,
+      "open": 87636.67,
+      "close": 87566.79,
+      "high": 88023.61,
+      "low": 87464.9,
+      "average": 87601.73,
+      "vwap": 87784.56387084353,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 191.63996,
+      "quoteVolume": 16823030.3088259,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -69.88,
+      "percentage": -0.079738310458396,
+      "timestamp": 1766956805602,
+      "datetime": "2025-12-28T21:20:05.602Z",
+      "exchange_timestamp": "2025-12-28T21:20:05.969002",
+      "data_source": "official_exchange_api",
+      "exchange_id": "fmfwio"
+    }
+  ]
+}

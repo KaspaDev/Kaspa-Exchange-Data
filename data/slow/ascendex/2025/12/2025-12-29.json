@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 0.00877,
+  "high": 0.0089,
+  "low": 0.00814,
+  "close": 0.00847,
+  "volume": null,
+  "quoteVolume": 35270210.62101999,
+  "change": -0.0002999999999999999,
+  "percentage": -3.4207525655644235,
+  "trades": 584,
+  "avgPrice": 0.008516986301369864,
+  "vwap": null,
+  "timestamp": 1766957978183,
+  "lastUpdate": 1766987384708,
+  "token": "slow",
+  "exchange": "ascendex"
+}

@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "okx",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "okx",
+      "symbol": "BTC/USDT",
+      "last": 87533.1,
+      "bid": 87533.0,
+      "ask": 87533.1,
+      "open": 87630.1,
+      "close": 87533.1,
+      "high": 88088.0,
+      "low": 87442.1,
+      "average": 87581.6,
+      "vwap": 87842.94472575,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 2980.23608275,
+      "quoteVolume": 261792713.48669395,
+      "bidVolume": 0.04316556,
+      "askVolume": 1.48585918,
+      "change": -97.0,
+      "percentage": -0.1106925588353773,
+      "timestamp": 1766956888509,
+      "datetime": "2025-12-28T21:21:28.509Z",
+      "exchange_timestamp": "2025-12-28T21:21:28.871722",
+      "data_source": "official_exchange_api",
+      "exchange_id": "okx"
+    }
+  ]
+}

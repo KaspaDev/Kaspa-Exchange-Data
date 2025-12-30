@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87583.76,
+  "high": 87583.77,
+  "low": 87583.76,
+  "close": 87583.77,
+  "volume": null,
+  "quoteVolume": 306302430.54999995,
+  "change": 0.010000000009313226,
+  "percentage": 1.141764182002831e-05,
+  "trades": 2,
+  "avgPrice": 87583.765,
+  "vwap": null,
+  "timestamp": 1766956594925,
+  "lastUpdate": 1766956708013,
+  "token": "btc",
+  "exchange": "bingx"
+}

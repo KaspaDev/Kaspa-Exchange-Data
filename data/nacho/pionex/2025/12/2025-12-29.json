@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 1.367e-05,
+  "high": 1.382e-05,
+  "low": 1.367e-05,
+  "close": 1.381e-05,
+  "volume": 7818763094.0,
+  "quoteVolume": 104651.11864927,
+  "change": 1.4000000000000035e-07,
+  "percentage": 1.0241404535479177,
+  "trades": 51,
+  "avgPrice": 1.3739019607843137e-05,
+  "vwap": 1.3384613063615865e-05,
+  "timestamp": 1766984412620,
+  "lastUpdate": 1766987395508,
+  "token": "nacho",
+  "exchange": "pionex"
+}

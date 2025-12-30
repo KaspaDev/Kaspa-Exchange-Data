@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 0.04432,
+  "high": 0.04556,
+  "low": 0.04425,
+  "close": 0.04512,
+  "volume": null,
+  "quoteVolume": 354282446.0,
+  "change": 0.0008000000000000021,
+  "percentage": 1.8050541516245535,
+  "trades": 553,
+  "avgPrice": 0.04488396021699819,
+  "vwap": null,
+  "timestamp": 1766959397705,
+  "lastUpdate": 1766987350258,
+  "token": "kaspa",
+  "exchange": "bitget"
+}

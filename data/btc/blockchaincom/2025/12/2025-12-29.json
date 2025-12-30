@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87229.16,
+  "high": 87229.16,
+  "low": 87229.16,
+  "close": 87229.16,
+  "volume": null,
+  "quoteVolume": null,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87229.16,
+  "vwap": null,
+  "timestamp": 1766956748184,
+  "lastUpdate": 1766956748184,
+  "token": "btc",
+  "exchange": "blockchaincom"
+}

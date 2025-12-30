@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87528.1,
+  "high": 87528.1,
+  "low": 87528.1,
+  "close": 87528.1,
+  "volume": null,
+  "quoteVolume": 261795799.1224008,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87528.1,
+  "vwap": null,
+  "timestamp": 1766956890303,
+  "lastUpdate": 1766956890303,
+  "token": "btc",
+  "exchange": "okxus"
+}

@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "toobit",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "toobit",
+      "symbol": "BTC/USDT",
+      "last": 87530.75,
+      "bid": null,
+      "ask": null,
+      "open": 87634.4,
+      "close": 87530.75,
+      "high": 88088.74,
+      "low": 87435.07,
+      "average": 87582.57,
+      "vwap": 87773.31119910309,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1371.70891,
+      "quoteVolume": 120399433.0320125,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -103.65,
+      "percentage": -0.0012,
+      "timestamp": 1766956910283,
+      "datetime": "2025-12-28T21:21:50.283Z",
+      "exchange_timestamp": "2025-12-28T21:21:51.085944",
+      "data_source": "official_exchange_api",
+      "exchange_id": "toobit"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 1.8129e-07,
+  "high": 1.8378e-07,
+  "low": 1.8102e-07,
+  "close": 1.8107e-07,
+  "volume": null,
+  "quoteVolume": 2735702.7844615495,
+  "change": -2.2000000000001123e-10,
+  "percentage": -0.12135252909703305,
+  "trades": 51,
+  "avgPrice": 1.821172549019608e-07,
+  "vwap": null,
+  "timestamp": 1766984407668,
+  "lastUpdate": 1766987390094,
+  "token": "pacman",
+  "exchange": "ascendex"
+}

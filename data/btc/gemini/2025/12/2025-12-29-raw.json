@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "gemini",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "gemini",
+      "symbol": "BTC/USDT",
+      "last": 87597.87,
+      "bid": 87515.88,
+      "ask": 87537.62,
+      "open": null,
+      "close": 87597.87,
+      "high": null,
+      "low": null,
+      "average": null,
+      "vwap": 87597.87,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.19821007,
+      "quoteVolume": 17362.7799445509,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956822000,
+      "datetime": "2025-12-28T21:20:22.000Z",
+      "exchange_timestamp": "2025-12-28T21:20:22.635336",
+      "data_source": "official_exchange_api",
+      "exchange_id": "gemini"
+    }
+  ]
+}

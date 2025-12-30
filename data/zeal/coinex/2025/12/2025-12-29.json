@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 0.011586,
+  "high": 0.011857,
+  "low": 0.011586,
+  "close": 0.011753,
+  "volume": null,
+  "quoteVolume": 125810.1336905645,
+  "change": 0.00016699999999999875,
+  "percentage": 1.4413947868116583,
+  "trades": 50,
+  "avgPrice": 0.01168702,
+  "vwap": null,
+  "timestamp": 1766984457342,
+  "lastUpdate": 1766987384709,
+  "token": "zeal",
+  "exchange": "coinex"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-27",
+  "open": 87484.9,
+  "high": 87484.9,
+  "low": 87484.9,
+  "close": 87484.9,
+  "volume": null,
+  "quoteVolume": 7868.129451299999,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87484.9,
+  "vwap": null,
+  "timestamp": 1766870422261,
+  "lastUpdate": 1766870422261,
+  "token": "btc",
+  "exchange": "hollaex"
+}

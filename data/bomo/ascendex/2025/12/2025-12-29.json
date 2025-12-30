@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 5.5e-08,
+  "high": 5.5e-08,
+  "low": 5.2e-08,
+  "close": 5.2e-08,
+  "volume": null,
+  "quoteVolume": 4204330.252040019,
+  "change": -3.0000000000000004e-09,
+  "percentage": -5.454545454545455,
+  "trades": 51,
+  "avgPrice": 5.433333333333334e-08,
+  "vwap": null,
+  "timestamp": 1766984406704,
+  "lastUpdate": 1766987384855,
+  "token": "bomo",
+  "exchange": "ascendex"
+}

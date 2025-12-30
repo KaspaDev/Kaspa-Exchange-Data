@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "indodax",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "indodax",
+      "symbol": "BTC/USDT",
+      "last": 87701.899281,
+      "bid": 87701.899281,
+      "ask": 87730.899314,
+      "open": null,
+      "close": 87701.899281,
+      "high": 87963.913306,
+      "low": 87701.89887,
+      "average": null,
+      "vwap": 87718.80741504049,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.17167,
+      "quoteVolume": 15058.68766894,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": null,
+      "percentage": null,
+      "timestamp": 1766956845000,
+      "datetime": "2025-12-28T21:20:45.000Z",
+      "exchange_timestamp": "2025-12-28T21:20:45.730483",
+      "data_source": "official_exchange_api",
+      "exchange_id": "indodax"
+    }
+  ]
+}

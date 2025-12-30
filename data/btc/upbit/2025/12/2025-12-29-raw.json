@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "upbit",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "upbit",
+      "symbol": "BTC/USDT",
+      "last": 87978.83,
+      "bid": null,
+      "ask": null,
+      "open": 87421.86,
+      "close": 87978.83,
+      "high": 88396.94,
+      "low": 87251.02,
+      "average": 87700.345,
+      "vwap": 87692.00627520424,
+      "previousClose": 88291.48,
+      "volume": null,
+      "baseVolume": 1.86924912,
+      "quoteVolume": 163918.20556096,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -312.65,
+      "percentage": -0.0035411118,
+      "timestamp": 1766956598896,
+      "datetime": "2025-12-28T21:16:38.896Z",
+      "exchange_timestamp": "2025-12-28T21:21:52.696315",
+      "data_source": "official_exchange_api",
+      "exchange_id": "upbit"
+    }
+  ]
+}

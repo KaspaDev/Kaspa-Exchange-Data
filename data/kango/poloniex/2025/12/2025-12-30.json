@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-15",
+  "open": 8.22e-06,
+  "high": 8.22e-06,
+  "low": 8.22e-06,
+  "close": 8.22e-06,
+  "volume": null,
+  "quoteVolume": null,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 8.22e-06,
+  "vwap": null,
+  "timestamp": 1765780414349,
+  "lastUpdate": 1765780414349,
+  "token": "kango",
+  "exchange": "poloniex"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87530.74,
+  "high": 87530.74,
+  "low": 87530.74,
+  "close": 87530.74,
+  "volume": null,
+  "quoteVolume": 29459.9005546479,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87530.74,
+  "vwap": null,
+  "timestamp": 1766956886000,
+  "lastUpdate": 1766956886000,
+  "token": "btc",
+  "exchange": "probit"
+}

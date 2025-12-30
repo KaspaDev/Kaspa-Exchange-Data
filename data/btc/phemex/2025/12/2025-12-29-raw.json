@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "phemex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "phemex",
+      "symbol": "BTC/USDT",
+      "last": 87530.75,
+      "bid": 87530.45,
+      "ask": 87534.21,
+      "open": 87629.66,
+      "close": 87530.75,
+      "high": 88040.37,
+      "low": 87435.0,
+      "average": 87580.2,
+      "vwap": 87778.55367981938,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 1735.16894,
+      "quoteVolume": 152310619.94334528,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -98.91,
+      "percentage": -0.1128727419460488,
+      "timestamp": 1766956900523,
+      "datetime": "2025-12-28T21:21:40.523Z",
+      "exchange_timestamp": "2025-12-28T21:21:42.070417",
+      "data_source": "official_exchange_api",
+      "exchange_id": "phemex"
+    }
+  ]
+}

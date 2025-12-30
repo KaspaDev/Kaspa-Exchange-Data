@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-29",
+  "open": 1.369e-05,
+  "high": 1.384e-05,
+  "low": 1.368e-05,
+  "close": 1.383e-05,
+  "volume": null,
+  "quoteVolume": 2428354.1969479206,
+  "change": 1.4000000000000035e-07,
+  "percentage": 1.022644265887512,
+  "trades": 51,
+  "avgPrice": 1.3758823529411764e-05,
+  "vwap": null,
+  "timestamp": 1766984411135,
+  "lastUpdate": 1766987394089,
+  "token": "nacho",
+  "exchange": "gate"
+}

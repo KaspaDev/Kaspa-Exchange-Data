@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "btcalpha",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "btcalpha",
+      "symbol": "BTC/USDT",
+      "last": 87686.99,
+      "bid": 87462.77,
+      "ask": 87686.99,
+      "open": 87618.58,
+      "close": 87686.99,
+      "high": 88159.41,
+      "low": 87346.5229,
+      "average": 87652.78,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": null,
+      "quoteVolume": 443.860826,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": 68.41,
+      "percentage": 0.0780770471285884,
+      "timestamp": 1766956720236,
+      "datetime": "2025-12-28T21:18:40.236Z",
+      "exchange_timestamp": "2025-12-28T21:19:10.012015",
+      "data_source": "official_exchange_api",
+      "exchange_id": "btcalpha"
+    }
+  ]
+}

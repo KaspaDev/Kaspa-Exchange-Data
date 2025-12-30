@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "btc",
+  "exchange": "probit",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "BTC",
+      "exchange": "probit",
+      "symbol": "BTC/USDT",
+      "last": 87530.74,
+      "bid": null,
+      "ask": null,
+      "open": 87634.4,
+      "close": 87530.74,
+      "high": 88255.14,
+      "low": 85352.05,
+      "average": 87582.57,
+      "vwap": 87761.07123994122,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.33568301,
+      "quoteVolume": 29459.9005546479,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -103.66,
+      "percentage": -0.1182868827766265,
+      "timestamp": 1766956886000,
+      "datetime": "2025-12-28T21:21:26.000Z",
+      "exchange_timestamp": "2025-12-28T21:21:45.612332",
+      "data_source": "official_exchange_api",
+      "exchange_id": "probit"
+    }
+  ]
+}

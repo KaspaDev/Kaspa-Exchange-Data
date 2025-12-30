@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87554.9,
+  "high": 87554.9,
+  "low": 87554.9,
+  "close": 87554.9,
+  "volume": null,
+  "quoteVolume": 2998647.717017765,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87554.9,
+  "vwap": null,
+  "timestamp": 1766956850301,
+  "lastUpdate": 1766956850301,
+  "token": "btc",
+  "exchange": "kraken"
+}

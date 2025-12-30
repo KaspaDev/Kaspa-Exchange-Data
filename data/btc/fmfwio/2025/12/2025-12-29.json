@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-28",
+  "open": 87566.79,
+  "high": 87566.79,
+  "low": 87566.79,
+  "close": 87566.79,
+  "volume": null,
+  "quoteVolume": 16823030.3088259,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 87566.79,
+  "vwap": null,
+  "timestamp": 1766956805602,
+  "lastUpdate": 1766956805602,
+  "token": "btc",
+  "exchange": "fmfwio"
+}

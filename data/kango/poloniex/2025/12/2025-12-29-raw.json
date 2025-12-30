@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "kango",
+  "exchange": "poloniex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "Kango",
+      "exchange": "poloniex",
+      "symbol": "KANGO/USDT",
+      "last": 8.22e-06,
+      "bid": 8e-06,
+      "ask": 1.301e-05,
+      "open": 8.22e-06,
+      "close": 8.22e-06,
+      "high": 8.22e-06,
+      "low": 8.22e-06,
+      "average": 8.22e-06,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 0.0,
+      "quoteVolume": 0.0,
+      "bidVolume": 2334933.0,
+      "askVolume": 157411.0,
+      "change": 0.0,
+      "percentage": 0.0,
+      "timestamp": 1765780414349,
+      "datetime": "2025-12-15T06:33:34.349Z",
+      "exchange_timestamp": "2025-12-28T06:08:46.023613",
+      "data_source": "official_exchange_api",
+      "exchange_id": "poloniex"
+    }
+  ]
+}
