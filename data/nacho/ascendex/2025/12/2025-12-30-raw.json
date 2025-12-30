@@ -3,7 +3,7 @@
   "token": "nacho",
   "exchange": "ascendex",
   "resolution": "1m",
-  "count": 9,
+  "count": 10,
   "data": [
     {
       "token": "Nacho",
@@ -245,6 +245,33 @@
       "timestamp": 1767074466961,
       "datetime": "2025-12-30T06:01:06.961043",
       "exchange_timestamp": "2025-12-30T06:01:06.961044",
+      "data_source": "official_exchange_api",
+      "exchange_id": "ascendex"
+    },
+    {
+      "token": "Nacho",
+      "exchange": "ascendex",
+      "symbol": "NACHO/USDT",
+      "last": 1.347e-05,
+      "bid": 1.345e-05,
+      "ask": 1.358e-05,
+      "open": 1.357e-05,
+      "close": 1.347e-05,
+      "high": 1.417e-05,
+      "low": 1.314e-05,
+      "average": 1.352e-05,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 3901781212.0,
+      "quoteVolume": 52556.99292564,
+      "bidVolume": 380794.0,
+      "askVolume": 386966.0,
+      "change": -1e-07,
+      "percentage": -0.7369196757553426,
+      "timestamp": 1767074582640,
+      "datetime": "2025-12-30T06:03:02.640633",
+      "exchange_timestamp": "2025-12-30T06:03:02.640637",
       "data_source": "official_exchange_api",
       "exchange_id": "ascendex"
     }
