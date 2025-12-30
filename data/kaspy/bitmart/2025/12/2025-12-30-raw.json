@@ -3,7 +3,7 @@
   "token": "kaspy",
   "exchange": "bitmart",
   "resolution": "1m",
-  "count": 7,
+  "count": 8,
   "data": [
     {
       "token": "Kaspy",
@@ -191,6 +191,33 @@
       "timestamp": 1767074172586,
       "datetime": "2025-12-30T05:56:12.586Z",
       "exchange_timestamp": "2025-12-30T05:56:36.622264",
+      "data_source": "official_exchange_api",
+      "exchange_id": "bitmart"
+    },
+    {
+      "token": "Kaspy",
+      "exchange": "bitmart",
+      "symbol": "KASPY/USDT",
+      "last": 2.61e-06,
+      "bid": 2.6e-06,
+      "ask": 2.63e-06,
+      "open": 2.69e-06,
+      "close": 2.61e-06,
+      "high": 2.73e-06,
+      "low": 2.61e-06,
+      "average": 2.65e-06,
+      "vwap": 2.630391984698e-06,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 983332364.0,
+      "quoteVolume": 2586.54956856,
+      "bidVolume": 20157593.0,
+      "askVolume": 116952682.0,
+      "change": -8e-08,
+      "percentage": -2.974,
+      "timestamp": 1767074323586,
+      "datetime": "2025-12-30T05:58:43.586Z",
+      "exchange_timestamp": "2025-12-30T05:58:49.653674",
       "data_source": "official_exchange_api",
       "exchange_id": "bitmart"
     }
