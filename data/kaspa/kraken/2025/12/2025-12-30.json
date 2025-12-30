@@ -5,14 +5,14 @@
   "low": 0.04296,
   "close": 0.04343,
   "volume": null,
-  "quoteVolume": 3506781.1189995124,
+  "quoteVolume": 3837600.719583237,
   "change": 0.00047000000000000514,
   "percentage": 1.0940409683426564,
-  "trades": 53,
-  "avgPrice": 0.04317283018867925,
+  "trades": 58,
+  "avgPrice": 0.043195,
   "vwap": null,
   "timestamp": 1767073581136,
-  "lastUpdate": 1767078630121,
+  "lastUpdate": 1767079193448,
   "token": "kaspa",
   "exchange": "kraken"
 }

@@ -5,14 +5,14 @@
   "low": 0.04309,
   "close": 0.04341,
   "volume": null,
-  "quoteVolume": 18699296.808699995,
+  "quoteVolume": 20405758.900299996,
   "change": 0.0003199999999999939,
   "percentage": 0.7426317010907261,
-  "trades": 53,
-  "avgPrice": 0.04337622641509434,
+  "trades": 58,
+  "avgPrice": 0.043381896551724135,
   "vwap": null,
   "timestamp": 1767073583665,
-  "lastUpdate": 1767078636516,
+  "lastUpdate": 1767079192155,
   "token": "kaspa",
   "exchange": "lbank"
 }

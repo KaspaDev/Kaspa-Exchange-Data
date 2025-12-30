@@ -5,14 +5,14 @@
   "low": 0.04312,
   "close": 0.04343,
   "volume": null,
-  "quoteVolume": 1225.7671512599998,
+  "quoteVolume": 1339.2641097100002,
   "change": 0.0003100000000000047,
   "percentage": 0.7189239332096584,
-  "trades": 54,
-  "avgPrice": 0.04339351851851852,
+  "trades": 59,
+  "avgPrice": 0.04339966101694915,
   "vwap": null,
   "timestamp": 1767073572357,
-  "lastUpdate": 1767078619605,
+  "lastUpdate": 1767079180490,
   "token": "kaspa",
   "exchange": "cex"
 }

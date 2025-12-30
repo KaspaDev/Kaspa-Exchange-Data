@@ -5,14 +5,14 @@
   "low": 1.467e-07,
   "close": 1.467e-07,
   "volume": null,
-  "quoteVolume": 162705.22757572593,
+  "quoteVolume": 177719.2401172511,
   "change": -6.099999999999982e-09,
   "percentage": -3.992146596858627,
-  "trades": 55,
-  "avgPrice": 1.5031818181818182e-07,
+  "trades": 60,
+  "avgPrice": 1.5001666666666667e-07,
   "vwap": null,
   "timestamp": 1767073578682,
-  "lastUpdate": 1767078739705,
+  "lastUpdate": 1767079182015,
   "token": "keke",
   "exchange": "coinex"
 }

@@ -5,14 +5,14 @@
   "low": 2.715e-06,
   "close": 2.717e-06,
   "volume": null,
-  "quoteVolume": 993678.9406342279,
+  "quoteVolume": 1087427.3908446429,
   "change": 0,
   "percentage": 0,
-  "trades": 53,
-  "avgPrice": 2.7176415094339622e-06,
+  "trades": 58,
+  "avgPrice": 2.7176551724137932e-06,
   "vwap": null,
   "timestamp": 1767073586694,
-  "lastUpdate": 1767078636388,
+  "lastUpdate": 1767079192699,
   "token": "kaspy",
   "exchange": "mexc"
 }

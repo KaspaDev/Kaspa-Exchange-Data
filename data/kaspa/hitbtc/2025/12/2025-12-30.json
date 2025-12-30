@@ -8,11 +8,11 @@
   "quoteVolume": null,
   "change": 0,
   "percentage": 0,
-  "trades": 54,
+  "trades": 59,
   "avgPrice": 0.04449,
   "vwap": null,
   "timestamp": 1767073577432,
-  "lastUpdate": 1767078626021,
+  "lastUpdate": 1767079189083,
   "token": "kaspa",
   "exchange": "hitbtc"
 }

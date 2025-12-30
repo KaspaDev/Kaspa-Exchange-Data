@@ -5,14 +5,14 @@
   "low": 0.04313,
   "close": 0.04346,
   "volume": null,
-  "quoteVolume": 49821858.0,
+  "quoteVolume": 54178703.0,
   "change": 0.00032999999999999696,
   "percentage": 0.7651286807326616,
-  "trades": 55,
-  "avgPrice": 0.043418727272727276,
+  "trades": 60,
+  "avgPrice": 0.04342566666666667,
   "vwap": null,
   "timestamp": 1767073568092,
-  "lastUpdate": 1767078732244,
+  "lastUpdate": 1767079174731,
   "token": "kaspa",
   "exchange": "bitget"
 }
