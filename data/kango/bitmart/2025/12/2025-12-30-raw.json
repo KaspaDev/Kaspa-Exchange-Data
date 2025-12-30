@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "kango",
+  "exchange": "bitmart",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "Kango",
+      "exchange": "bitmart",
+      "symbol": "KANGO/USDT",
+      "last": 1.61e-06,
+      "bid": 1.59e-06,
+      "ask": 1.62e-06,
+      "open": 1.7e-06,
+      "close": 1.61e-06,
+      "high": 1.89e-06,
+      "low": 1.6e-06,
+      "average": 1.65e-06,
+      "vwap": 1.674947205438e-06,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 28842805996.26,
+      "quoteVolume": 48310.17730043,
+      "bidVolume": 15723270.44,
+      "askVolume": 7221949.04,
+      "change": -9e-08,
+      "percentage": -5.294,
+      "timestamp": 1767073569651,
+      "datetime": "2025-12-30T05:46:09.651Z",
+      "exchange_timestamp": "2025-12-30T05:46:09.965684",
+      "data_source": "official_exchange_api",
+      "exchange_id": "bitmart"
+    }
+  ]
+}
