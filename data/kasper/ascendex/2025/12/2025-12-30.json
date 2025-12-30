@@ -5,14 +5,14 @@
   "low": 1.82e-05,
   "close": 1.82e-05,
   "volume": null,
-  "quoteVolume": 371678.39384740003,
+  "quoteVolume": 424158.7009994,
   "change": -2.0000000000000147e-07,
   "percentage": -1.0869565217391384,
-  "trades": 7,
-  "avgPrice": 1.8328571428571427e-05,
+  "trades": 8,
+  "avgPrice": 1.8312499999999998e-05,
   "vwap": null,
   "timestamp": 1767073566189,
-  "lastUpdate": 1767074184919,
+  "lastUpdate": 1767074323815,
   "token": "kasper",
   "exchange": "ascendex"
 }
