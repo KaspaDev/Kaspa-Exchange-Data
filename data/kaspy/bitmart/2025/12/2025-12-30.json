@@ -5,14 +5,14 @@
   "low": 2.61e-06,
   "close": 2.62e-06,
   "volume": null,
-  "quoteVolume": 141249.24722037988,
+  "quoteVolume": 153916.04387367985,
   "change": 9.999999999999904e-09,
   "percentage": 0.38314176245210363,
-  "trades": 55,
-  "avgPrice": 2.6121818181818182e-06,
+  "trades": 60,
+  "avgPrice": 2.612833333333333e-06,
   "vwap": null,
   "timestamp": 1767073554586,
-  "lastUpdate": 1767079330586,
+  "lastUpdate": 1767080047586,
   "token": "kaspy",
   "exchange": "bitmart"
 }
