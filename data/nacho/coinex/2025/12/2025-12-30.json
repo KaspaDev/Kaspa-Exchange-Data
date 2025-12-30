@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 1.31833e-05,
+  "high": 1.31833e-05,
+  "low": 1.31832e-05,
+  "close": 1.31832e-05,
+  "volume": null,
+  "quoteVolume": 701274.0562627295,
+  "change": -1.0000000000021927e-10,
+  "percentage": -0.0007585354198130914,
+  "trades": 55,
+  "avgPrice": 1.3183245454545455e-05,
+  "vwap": null,
+  "timestamp": 1767073572772,
+  "lastUpdate": 1767078735669,
+  "token": "nacho",
+  "exchange": "coinex"
+}
