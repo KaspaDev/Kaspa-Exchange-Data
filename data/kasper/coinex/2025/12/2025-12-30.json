@@ -1,18 +1,18 @@
 {
   "date": "2025-12-30",
   "open": 1.859e-05,
-  "high": 1.859e-05,
+  "high": 1.878e-05,
   "low": 1.859e-05,
   "close": 1.859e-05,
   "volume": null,
-  "quoteVolume": 31387.571332787444,
+  "quoteVolume": 212250.71437518875,
   "change": 0,
   "percentage": 0,
-  "trades": 8,
-  "avgPrice": 1.859e-05,
+  "trades": 54,
+  "avgPrice": 1.8593518518518517e-05,
   "vwap": null,
   "timestamp": 1767073578680,
-  "lastUpdate": 1767074329657,
+  "lastUpdate": 1767078620036,
   "token": "kasper",
   "exchange": "coinex"
 }

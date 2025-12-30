@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 0.0431,
+  "high": 0.04349,
+  "low": 0.04308,
+  "close": 0.04338,
+  "volume": null,
+  "quoteVolume": 86432748.58812359,
+  "change": 0.00028000000000000247,
+  "percentage": 0.6496519721577784,
+  "trades": 53,
+  "avgPrice": 0.04334962264150943,
+  "vwap": null,
+  "timestamp": 1767073580785,
+  "lastUpdate": 1767078626600,
+  "token": "kaspa",
+  "exchange": "kucoin"
+}

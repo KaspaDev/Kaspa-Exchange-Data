@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 2.1317e-06,
+  "high": 2.2084e-06,
+  "low": 2.1317e-06,
+  "close": 2.2084e-06,
+  "volume": null,
+  "quoteVolume": 127468.87270127377,
+  "change": 7.670000000000004e-08,
+  "percentage": 3.59806727025379,
+  "trades": 55,
+  "avgPrice": 2.1689763636363634e-06,
+  "vwap": null,
+  "timestamp": 1767073575755,
+  "lastUpdate": 1767078735671,
+  "token": "krex",
+  "exchange": "coinex"
+}
