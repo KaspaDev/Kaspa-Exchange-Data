@@ -5,14 +5,14 @@
   "low": 1.6e-06,
   "close": 1.61e-06,
   "volume": null,
-  "quoteVolume": 1884509.05740034,
+  "quoteVolume": 2129331.14413874,
   "change": 0,
   "percentage": 0,
-  "trades": 39,
-  "avgPrice": 1.603076923076923e-06,
+  "trades": 44,
+  "avgPrice": 1.603409090909091e-06,
   "vwap": null,
   "timestamp": 1767073569651,
-  "lastUpdate": 1767079179675,
+  "lastUpdate": 1767079958933,
   "token": "kango",
   "exchange": "bitmart"
 }
