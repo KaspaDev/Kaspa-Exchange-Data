@@ -3,7 +3,7 @@
   "token": "kaspy",
   "exchange": "mexc",
   "resolution": "1m",
-  "count": 5,
+  "count": 6,
   "data": [
     {
       "token": "Kaspy",
@@ -137,6 +137,33 @@
       "timestamp": 1767074095173,
       "datetime": "2025-12-30T05:54:55.173Z",
       "exchange_timestamp": "2025-12-30T05:54:55.242861",
+      "data_source": "official_exchange_api",
+      "exchange_id": "mexc"
+    },
+    {
+      "token": "Kaspy",
+      "exchange": "mexc",
+      "symbol": "KASPY/USDT",
+      "last": 2.719e-06,
+      "bid": 2.712e-06,
+      "ask": 2.726e-06,
+      "open": 2.696e-06,
+      "close": 2.719e-06,
+      "high": 2.753e-06,
+      "low": 2.489e-06,
+      "average": 2.707e-06,
+      "vwap": 2.709426396877e-06,
+      "previousClose": 2.696e-06,
+      "volume": null,
+      "baseVolume": 6915157833.65,
+      "quoteVolume": 18736.111173064,
+      "bidVolume": 158997.15,
+      "askVolume": 465141.11,
+      "change": 2.3e-08,
+      "percentage": 0.85,
+      "timestamp": 1767074216544,
+      "datetime": "2025-12-30T05:56:56.544Z",
+      "exchange_timestamp": "2025-12-30T05:56:56.806586",
       "data_source": "official_exchange_api",
       "exchange_id": "mexc"
     }
