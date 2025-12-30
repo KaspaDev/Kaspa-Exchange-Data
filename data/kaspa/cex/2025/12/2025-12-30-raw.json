@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "kaspa",
+  "exchange": "cex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "Kaspa",
+      "exchange": "cex",
+      "symbol": "KAS/USDT",
+      "last": 0.04312,
+      "bid": 0.04306,
+      "ask": 0.04312,
+      "open": 0.04517,
+      "close": 0.04312,
+      "high": 0.04451,
+      "low": 0.04355,
+      "average": 0.04414,
+      "vwap": 0.04371662256436782,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 519.239373,
+      "quoteVolume": 22.69939169,
+      "bidVolume": null,
+      "askVolume": null,
+      "change": -0.00205,
+      "percentage": -4.53,
+      "timestamp": 1767073572357,
+      "datetime": "2025-12-30T05:46:12.357804",
+      "exchange_timestamp": "2025-12-30T05:46:12.357807",
+      "data_source": "official_exchange_api",
+      "exchange_id": "cex"
+    }
+  ]
+}
