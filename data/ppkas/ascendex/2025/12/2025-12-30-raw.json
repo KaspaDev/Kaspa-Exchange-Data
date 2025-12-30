@@ -3,7 +3,7 @@
   "token": "ppkas",
   "exchange": "ascendex",
   "resolution": "1m",
-  "count": 7,
+  "count": 8,
   "data": [
     {
       "token": "PPKas",
@@ -191,6 +191,33 @@
       "timestamp": 1767074188607,
       "datetime": "2025-12-30T05:56:28.607027",
       "exchange_timestamp": "2025-12-30T05:56:28.607029",
+      "data_source": "official_exchange_api",
+      "exchange_id": "ascendex"
+    },
+    {
+      "token": "PPKas",
+      "exchange": "ascendex",
+      "symbol": "PPKAS/USDT",
+      "last": 0.0002931,
+      "bid": 0.0002905,
+      "ask": 0.0002969,
+      "open": 0.0002952,
+      "close": 0.0002931,
+      "high": 0.0003028,
+      "low": 0.0002883,
+      "average": 0.0002941,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 145226505.0,
+      "quoteVolume": 42565.8886155,
+      "bidVolume": 18701.0,
+      "askVolume": 18662.0,
+      "change": -2.1e-06,
+      "percentage": -0.7113821138211383,
+      "timestamp": 1767074319540,
+      "datetime": "2025-12-30T05:58:39.540533",
+      "exchange_timestamp": "2025-12-30T05:58:39.540538",
       "data_source": "official_exchange_api",
       "exchange_id": "ascendex"
     }
