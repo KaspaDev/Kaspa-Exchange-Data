@@ -5,14 +5,14 @@
   "low": 7.367e-07,
   "close": 7.367e-07,
   "volume": null,
-  "quoteVolume": 394666.38612839073,
+  "quoteVolume": 427555.27312617324,
   "change": 0,
   "percentage": 0,
-  "trades": 60,
+  "trades": 65,
   "avgPrice": 7.367e-07,
   "vwap": null,
   "timestamp": 1767073578648,
-  "lastUpdate": 1767079186106,
+  "lastUpdate": 1767079676410,
   "token": "konan",
   "exchange": "coinex"
 }

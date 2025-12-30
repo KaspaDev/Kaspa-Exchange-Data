@@ -5,14 +5,14 @@
   "low": 2.6884e-06,
   "close": 2.7049e-06,
   "volume": null,
-  "quoteVolume": 150666.87082887552,
+  "quoteVolume": 163410.77772253557,
   "change": -1.0699999999999745e-08,
   "percentage": -0.39401973781115573,
-  "trades": 59,
-  "avgPrice": 2.706405084745763e-06,
+  "trades": 64,
+  "avgPrice": 2.7062875000000002e-06,
   "vwap": null,
   "timestamp": 1767073575755,
-  "lastUpdate": 1767079180557,
+  "lastUpdate": 1767079682653,
   "token": "kaspy",
   "exchange": "coinex"
 }
