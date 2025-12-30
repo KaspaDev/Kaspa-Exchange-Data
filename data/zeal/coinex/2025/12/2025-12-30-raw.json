@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "zeal",
+  "exchange": "coinex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "Zeal",
+      "exchange": "coinex",
+      "symbol": "ZEAL/USDT",
+      "last": 0.011556,
+      "bid": null,
+      "ask": null,
+      "open": 0.011753,
+      "close": 0.011556,
+      "high": 0.011999,
+      "low": 0.011454,
+      "average": 0.011654,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 286176.77591046,
+      "quoteVolume": 3307.0588224212756,
+      "bidVolume": 44045.86364284,
+      "askVolume": 151965.27092304,
+      "change": -0.000197,
+      "percentage": -1.6761677869480132,
+      "timestamp": 1767073575748,
+      "datetime": "2025-12-30T05:46:15.748110",
+      "exchange_timestamp": "2025-12-30T05:46:15.748115",
+      "data_source": "official_exchange_api",
+      "exchange_id": "coinex"
+    }
+  ]
+}
