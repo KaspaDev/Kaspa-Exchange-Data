@@ -3,7 +3,7 @@
   "token": "pacman",
   "exchange": "ascendex",
   "resolution": "1m",
-  "count": 9,
+  "count": 10,
   "data": [
     {
       "token": "PacMan",
@@ -245,6 +245,33 @@
       "timestamp": 1767074471111,
       "datetime": "2025-12-30T06:01:11.111626",
       "exchange_timestamp": "2025-12-30T06:01:11.111628",
+      "data_source": "official_exchange_api",
+      "exchange_id": "ascendex"
+    },
+    {
+      "token": "PacMan",
+      "exchange": "ascendex",
+      "symbol": "PACMAN/USDT",
+      "last": 1.8204e-07,
+      "bid": 1.8093e-07,
+      "ask": 1.8382e-07,
+      "open": 1.8185e-07,
+      "close": 1.8204e-07,
+      "high": 1.8688e-07,
+      "low": 1.8094e-07,
+      "average": 1.8194e-07,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 302528653302.0,
+      "quoteVolume": 55072.31604709608,
+      "bidVolume": 28046065.0,
+      "askVolume": 28704353.0,
+      "change": 1.9e-10,
+      "percentage": 0.1044817156997525,
+      "timestamp": 1767074583407,
+      "datetime": "2025-12-30T06:03:03.407942",
+      "exchange_timestamp": "2025-12-30T06:03:03.407945",
       "data_source": "official_exchange_api",
       "exchange_id": "ascendex"
     }
