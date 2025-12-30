@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 0.04312,
+  "high": 0.04312,
+  "low": 0.04312,
+  "close": 0.04312,
+  "volume": null,
+  "quoteVolume": 22.69939169,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 0.04312,
+  "vwap": null,
+  "timestamp": 1767073572357,
+  "lastUpdate": 1767073572357,
+  "token": "kaspa",
+  "exchange": "cex"
+}
