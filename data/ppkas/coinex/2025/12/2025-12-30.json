@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 0.00029414,
+  "high": 0.00029527,
+  "low": 0.00029341,
+  "close": 0.00029527,
+  "volume": null,
+  "quoteVolume": 54105.07673854302,
+  "change": 1.129999999999957e-06,
+  "percentage": 0.3841708030189559,
+  "trades": 8,
+  "avgPrice": 0.0002940225,
+  "vwap": null,
+  "timestamp": 1767073572770,
+  "lastUpdate": 1767074332061,
+  "token": "ppkas",
+  "exchange": "coinex"
+}
