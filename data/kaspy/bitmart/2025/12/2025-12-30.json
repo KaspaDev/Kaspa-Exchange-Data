@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 2.61e-06,
+  "high": 2.61e-06,
+  "low": 2.61e-06,
+  "close": 2.61e-06,
+  "volume": null,
+  "quoteVolume": 2548.28831064,
+  "change": 0,
+  "percentage": 0,
+  "trades": 1,
+  "avgPrice": 2.61e-06,
+  "vwap": null,
+  "timestamp": 1767073554586,
+  "lastUpdate": 1767073554586,
+  "token": "kaspy",
+  "exchange": "bitmart"
+}
