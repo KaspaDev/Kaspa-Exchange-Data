@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-30",
+  "open": 0.04311,
+  "high": 0.04322,
+  "low": 0.04309,
+  "close": 0.04322,
+  "volume": null,
+  "quoteVolume": 16477646.1444526,
+  "change": 0.00010999999999999899,
+  "percentage": 0.25516121549524234,
+  "trades": 10,
+  "avgPrice": 0.043137,
+  "vwap": null,
+  "timestamp": 1767073589956,
+  "lastUpdate": 1767074099655,
+  "token": "kaspa",
+  "exchange": "gate"
+}
