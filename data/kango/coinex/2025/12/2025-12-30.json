@@ -5,14 +5,14 @@
   "low": 1.6175e-06,
   "close": 1.6238e-06,
   "volume": null,
-  "quoteVolume": 227892.99160051168,
+  "quoteVolume": 245217.95930461114,
   "change": 1.2000000000000902e-09,
   "percentage": 0.07395538025391903,
-  "trades": 65,
-  "avgPrice": 1.6251661538461538e-06,
+  "trades": 70,
+  "avgPrice": 1.6250685714285715e-06,
   "vwap": null,
   "timestamp": 1767073575751,
-  "lastUpdate": 1767079682654,
+  "lastUpdate": 1767080149533,
   "token": "kango",
   "exchange": "coinex"
 }

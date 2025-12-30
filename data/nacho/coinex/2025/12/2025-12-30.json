@@ -5,14 +5,14 @@
   "low": 1.3045e-05,
   "close": 1.31849e-05,
   "volume": null,
-  "quoteVolume": 827365.8145799221,
+  "quoteVolume": 890920.4616192289,
   "change": 1.6000000000001202e-09,
   "percentage": 0.012136566716983762,
-  "trades": 65,
-  "avgPrice": 1.3169083076923076e-05,
+  "trades": 70,
+  "avgPrice": 1.3170212857142857e-05,
   "vwap": null,
   "timestamp": 1767073572772,
-  "lastUpdate": 1767079682999,
+  "lastUpdate": 1767080149536,
   "token": "nacho",
   "exchange": "coinex"
 }

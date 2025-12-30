@@ -5,14 +5,14 @@
   "low": 0.04344,
   "close": 0.04344,
   "volume": null,
-  "quoteVolume": 286851.44123999996,
+  "quoteVolume": 309617.4286399998,
   "change": 0,
   "percentage": 0,
-  "trades": 63,
+  "trades": 68,
   "avgPrice": 0.04344,
   "vwap": null,
   "timestamp": 1767073584476,
-  "lastUpdate": 1767079692374,
+  "lastUpdate": 1767080159558,
   "token": "kaspa",
   "exchange": "whitebit"
 }

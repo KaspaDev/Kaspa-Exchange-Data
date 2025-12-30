@@ -5,14 +5,14 @@
   "low": 2.1317e-06,
   "close": 2.2152e-06,
   "volume": null,
-  "quoteVolume": 151151.90532857412,
+  "quoteVolume": 163026.1385514778,
   "change": 8.350000000000013e-08,
   "percentage": 3.9170615002111053,
-  "trades": 65,
-  "avgPrice": 2.175146153846154e-06,
+  "trades": 70,
+  "avgPrice": 2.1780071428571427e-06,
   "vwap": null,
   "timestamp": 1767073575755,
-  "lastUpdate": 1767079686330,
+  "lastUpdate": 1767080152703,
   "token": "krex",
   "exchange": "coinex"
 }

@@ -5,14 +5,14 @@
   "low": 0.00979,
   "close": 0.00983,
   "volume": null,
-  "quoteVolume": 3824774.0385200004,
+  "quoteVolume": 4109864.18929,
   "change": -0.0001499999999999991,
   "percentage": -1.5030060120240392,
-  "trades": 65,
-  "avgPrice": 0.009895846153846154,
+  "trades": 70,
+  "avgPrice": 0.009896428571428572,
   "vwap": null,
   "timestamp": 1767073567670,
-  "lastUpdate": 1767079672218,
+  "lastUpdate": 1767080143603,
   "token": "slow",
   "exchange": "ascendex"
 }
