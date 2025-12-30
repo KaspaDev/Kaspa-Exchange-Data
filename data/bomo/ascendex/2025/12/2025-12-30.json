@@ -5,14 +5,14 @@
   "low": 5.2e-08,
   "close": 5.5e-08,
   "volume": null,
-  "quoteVolume": 662911.833593354,
+  "quoteVolume": 748151.851240314,
   "change": 1.0000000000000023e-09,
   "percentage": 1.8518518518518563,
-  "trades": 8,
-  "avgPrice": 5.4e-08,
+  "trades": 9,
+  "avgPrice": 5.4111111111111115e-08,
   "vwap": null,
   "timestamp": 1767073566184,
-  "lastUpdate": 1767074319519,
+  "lastUpdate": 1767074469864,
   "token": "bomo",
   "exchange": "ascendex"
 }
