@@ -1,0 +1,36 @@
+{
+  "timeframe": "24h",
+  "token": "kango",
+  "exchange": "ascendex",
+  "resolution": "1m",
+  "count": 1,
+  "data": [
+    {
+      "token": "Kango",
+      "exchange": "ascendex",
+      "symbol": "KANGO/USDT",
+      "last": 1.723e-06,
+      "bid": 1.685e-06,
+      "ask": 1.731e-06,
+      "open": 1.779e-06,
+      "close": 1.723e-06,
+      "high": 1.802e-06,
+      "low": 1.686e-06,
+      "average": 1.751e-06,
+      "vwap": null,
+      "previousClose": null,
+      "volume": null,
+      "baseVolume": 28915897452.0,
+      "quoteVolume": 49822.091309796,
+      "bidVolume": 3085688.0,
+      "askVolume": 2970636.0,
+      "change": -5.6e-08,
+      "percentage": -3.1478358628442944,
+      "timestamp": 1767073567142,
+      "datetime": "2025-12-30T05:46:07.142231",
+      "exchange_timestamp": "2025-12-30T05:46:07.142234",
+      "data_source": "official_exchange_api",
+      "exchange_id": "ascendex"
+    }
+  ]
+}
