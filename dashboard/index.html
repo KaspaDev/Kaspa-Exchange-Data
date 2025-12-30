@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaspa Exchange Data - Dashboard</title>
+    <style>
+        :root {
+            --bg-primary: #0f0f23;
+            --bg-secondary: #1a1a2e;
+            --bg-card: #16213e;
+            --text-primary: #e8e8e8;
+            --text-secondary: #7f8c8d;
+            --accent: #00d4aa;
+            --accent-dim: #00a888;
+            --positive: #2ecc71;
+            --negative: #e74c3c;
+            --border: #2c3e50;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--positive);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 24px;
+        }
+        
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .card-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        
+        .token-list {
+            list-style: none;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .token-item {
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+        
+        .token-item:hover {
+            background: var(--bg-secondary);
+        }
+        
+        .token-item.active {
+            background: var(--accent-dim);
+            color: white;
+        }
+        
+        .token-name {
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        .token-exchanges {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        .token-item.active .token-exchanges {
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .stat-change {
+            font-size: 0.875rem;
+            margin-top: 4px;
+        }
+        
+        .positive { color: var(--positive); }
+        .negative { color: var(--negative); }
+        
+        .chart-container {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            min-height: 300px;
+        }
+        
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .range-buttons {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .range-btn {
+            padding: 6px 12px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+        
+        .range-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        
+        .range-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+        
+        .chart-area {
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+        }
+        
+        .chart-bars {
+            display: flex;
+            align-items: flex-end;
+            gap: 4px;
+            height: 200px;
+            width: 100%;
+        }
+        
+        .chart-bar {
+            flex: 1;
+            background: linear-gradient(to top, var(--accent-dim), var(--accent));
+            border-radius: 2px 2px 0 0;
+            min-height: 4px;
+            transition: height 0.3s;
+        }
+        
+        .exchange-table {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .table-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 12px 20px;
+            text-align: left;
+        }
+        
+        th {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            font-weight: 500;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        tr:hover {
+            background: var(--bg-secondary);
+        }
+        
+        .exchange-name {
+            font-weight: 500;
+        }
+        
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            color: var(--text-secondary);
+        }
+        
+        .spinner {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 12px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>📊 Kaspa <span>Exchange Data</span></h1>
+            </div>
+            <div class="status">
+                <div class="status-dot"></div>
+                <span id="api-status">Connecting...</span>
+            </div>
+        </header>
+
+        <div class="grid">
+            <aside class="sidebar">
+                <div class="card">
+                    <div class="card-title">Tokens</div>
+                    <ul class="token-list" id="token-list">
+                        <li class="loading"><div class="spinner"></div> Loading...</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="main-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Average Price</div>
+                        <div class="stat-value" id="stat-price">--</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">24h Volume</div>
+                        <div class="stat-value" id="stat-volume">--</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">VWAP</div>
+                        <div class="stat-value" id="stat-vwap">--</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Active Exchanges</div>
+                        <div class="stat-value" id="stat-exchanges">--</div>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div class="card-title" style="margin-bottom:0">Price History</div>
+                        <div class="range-buttons">
+                            <button class="range-btn" data-range="today">Today</button>
+                            <button class="range-btn active" data-range="7d">7D</button>
+                            <button class="range-btn" data-range="30d">30D</button>
+                        </div>
+                    </div>
+                    <div class="chart-area" id="chart-area">
+                        <div class="chart-bars" id="chart-bars"></div>
+                    </div>
+                </div>
+
+                <div class="exchange-table">
+                    <div class="table-header">
+                        <div class="card-title" style="margin-bottom:0">Exchange Data</div>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exchange</th>
+                                <th>Price</th>
+                                <th>High</th>
+                                <th>Low</th>
+                                <th>Volume</th>
+                                <th>Change</th>
+                            </tr>
+                        </thead>
+                        <tbody id="exchange-tbody">
+                            <tr><td colspan="6" class="loading"><div class="spinner"></div> Loading...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+        let currentToken = 'kaspa';
+        let currentRange = '7d';
+
+        // Format helpers
+        const formatPrice = (n) => n ? `$${n.toFixed(6)}` : '--';
+        const formatVolume = (n) => {
+            if (!n) return '--';
+            if (n >= 1e6) return `$${(n/1e6).toFixed(2)}M`;
+            if (n >= 1e3) return `$${(n/1e3).toFixed(2)}K`;
+            return `$${n.toFixed(2)}`;
+        };
+        const formatChange = (n) => {
+            if (n === null || n === undefined) return '--';
+            const sign = n >= 0 ? '+' : '';
+            return `${sign}${n.toFixed(2)}%`;
+        };
+
+        // Check API status
+        async function checkStatus() {
+            try {
+                const res = await fetch(`${API_BASE}/health`);
+                const data = await res.json();
+                document.getElementById('api-status').textContent = 
+                    data.status === 'ok' ? 'API Online' : 'Degraded';
+            } catch {
+                document.getElementById('api-status').textContent = 'Offline';
+            }
+        }
+
+        // Load token list
+        async function loadTokens() {
+            try {
+                const res = await fetch(`${API_BASE}/v1/api/github/KaspaDev/Kaspa-Exchange-Data/data`);
+                const tokens = await res.json();
+                
+                const list = document.getElementById('token-list');
+                list.innerHTML = tokens
+                    .filter(t => t.type === 'dir')
+                    .map(t => `
+                        <li class="token-item ${t.name === currentToken ? 'active' : ''}" 
+                            data-token="${t.name}">
+                            <span class="token-name">${t.name}</span>
+                        </li>
+                    `)
+                    .join('');
+
+                // Add click handlers
+                list.querySelectorAll('.token-item').forEach(item => {
+                    item.addEventListener('click', () => selectToken(item.dataset.token));
+                });
+            } catch (e) {
+                document.getElementById('token-list').innerHTML = 
+                    '<li class="loading">Failed to load tokens</li>';
+            }
+        }
+
+        // Select token
+        async function selectToken(token) {
+            currentToken = token;
+            document.querySelectorAll('.token-item').forEach(i => 
+                i.classList.toggle('active', i.dataset.token === token));
+            await loadStats();
+            await loadHistory();
+        }
+
+        // Load stats
+        async function loadStats() {
+            try {
+                const res = await fetch(`${API_BASE}/v1/ticker/${currentToken}?range=${currentRange}`);
+                const data = await res.json();
+
+                document.getElementById('stat-price').textContent = 
+                    formatPrice(data.aggregate?.avg_price);
+                document.getElementById('stat-volume').textContent = 
+                    formatVolume(data.aggregate?.total_volume_24h);
+                document.getElementById('stat-vwap').textContent = 
+                    formatPrice(data.aggregate?.vwap);
+                document.getElementById('stat-exchanges').textContent = 
+                    data.aggregate?.exchange_count || '--';
+
+                // Update table
+                const tbody = document.getElementById('exchange-tbody');
+                const exchanges = data.exchanges?.filter(e => e.last) || [];
+                
+                if (exchanges.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-secondary)">No data available</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = exchanges
+                    .sort((a, b) => (b.volume_24h || 0) - (a.volume_24h || 0))
+                    .slice(0, 20)
+                    .map(e => `
+                        <tr>
+                            <td class="exchange-name">${e.exchange}</td>
+                            <td>${formatPrice(e.last)}</td>
+                            <td>${formatPrice(e.high)}</td>
+                            <td>${formatPrice(e.low)}</td>
+                            <td>${formatVolume(e.volume_24h)}</td>
+                            <td class="${e.change_pct >= 0 ? 'positive' : 'negative'}">
+                                ${formatChange(e.change_pct)}
+                            </td>
+                        </tr>
+                    `)
+                    .join('');
+            } catch (e) {
+                console.error('Failed to load stats:', e);
+            }
+        }
+
+        // Load history for chart
+        async function loadHistory() {
+            try {
+                const res = await fetch(
+                    `${API_BASE}/v1/ticker/${currentToken}/history?range=${currentRange}&resolution=1h`
+                );
+                const data = await res.json();
+                
+                const bars = document.getElementById('chart-bars');
+                if (!data.data || data.data.length === 0) {
+                    bars.innerHTML = '<div style="color:var(--text-secondary)">No chart data</div>';
+                    return;
+                }
+
+                // Find min/max for scaling
+                const prices = data.data.map(d => d.close);
+                const min = Math.min(...prices);
+                const max = Math.max(...prices);
+                const range = max - min || 1;
+
+                bars.innerHTML = data.data
+                    .map(d => {
+                        const height = ((d.close - min) / range) * 180 + 20;
+                        return `<div class="chart-bar" style="height:${height}px" 
+                                     title="${new Date(d.timestamp * 1000).toLocaleString()}: $${d.close.toFixed(6)}"></div>`;
+                    })
+                    .join('');
+            } catch (e) {
+                console.error('Failed to load history:', e);
+            }
+        }
+
+        // Range button handlers
+        document.querySelectorAll('.range-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.range-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentRange = btn.dataset.range;
+                loadStats();
+                loadHistory();
+            });
+        });
+
+        // Initial load
+        checkStatus();
+        loadTokens();
+        loadStats();
+        loadHistory();
+
+        // Auto-refresh every 60s
+        setInterval(() => {
+            checkStatus();
+            loadStats();
+        }, 60000);
+    </script>
+</body>
+</html>

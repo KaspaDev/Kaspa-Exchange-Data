@@ -1,5 +1,5 @@
 use crate::api::doc::ApiDoc;
-use crate::api::handlers::{content_handler, health_handler, metrics_handler};
+use crate::api::handlers::{content_handler, health_handler, metrics_handler, ticker_stats_handler, ticker_history_handler, dashboard_handler};
 use crate::api::state::AppState;
 use axum::{routing::get, Router};
 use std::time::Duration;
@@ -38,6 +38,8 @@ pub fn create_router(state: AppState, allowed_origins: String) -> Router {
 
     Router::new()
         .merge(SwaggerUi::new("/swagger-ui").url("/api-docs/openapi.json", ApiDoc::openapi()))
+        // Dashboard (development)
+        .route("/dashboard", get(dashboard_handler))
         // System endpoints (no versioning)
         .route("/health", get(health_handler))
         .route("/metrics", get(metrics_handler))
@@ -46,8 +48,12 @@ pub fn create_router(state: AppState, allowed_origins: String) -> Router {
             "/v1/api/{source}/{owner}/{repo}/{*path}",
             get(content_handler),
         )
+        // NEW: Ticker convenience endpoints
+        .route("/v1/ticker/{token}", get(ticker_stats_handler))
+        .route("/v1/ticker/{token}/history", get(ticker_history_handler))
         // Legacy route for backwards compatibility (can be removed later)
         .route("/api/{source}/{owner}/{repo}/{*path}", get(content_handler))
         .layer(middleware)
         .with_state(state)
 }
+

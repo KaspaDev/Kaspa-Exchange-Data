@@ -1,128 +1,224 @@
-# Kaspa Exchange Data Repository
+# 📊 Kaspa Exchange Data API
 
-This repository stores historical exchange data for KRC20 tokens using Kaspa Exchange Data API integration.
+> Real-time and historical exchange data for Kaspa (KAS) and KRC20 tokens across 100+ exchanges.
 
-## Overview
+[![API Status](https://img.shields.io/badge/API-Live-brightgreen)](http://localhost:8080/health)
+[![Swagger](https://img.shields.io/badge/Docs-Swagger%20UI-orange)](http://localhost:8080/swagger-ui)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-This repository contains:
-- **Raw ticker data**: Minute-by-minute exchange data for all configured tokens
-- **Daily summaries**: OHLC (Open, High, Low, Close) aggregations per exchange
-- **EOD summaries**: End-of-day summaries aggregated across all exchanges
+## ✨ Features
 
-## Repository Structure
+- 🚀 **Fast**: Redis caching with sub-second response times
+- 📈 **Real-time**: Data updated every 5 minutes from 100+ exchanges
+- 🔧 **Simple API**: Get token stats with one request
+- 📊 **Chart-ready**: OHLCV history for trading charts
+- 📖 **Well-documented**: Interactive Swagger UI
 
-```
-Kaspa-Exchange-Data/
-├── data/
-│   ├── {token}/
-│   │   ├── {exchange}/
-│   │   │   ├── {year}/
-│   │   │   │   ├── {month}/
-│   │   │   │   │   ├── {date}.json          # Daily OHLC summary
-│   │   │   │   │   └── {date}-raw.json     # Raw minute-by-minute data
-│   │   │   │   └── ...
-│   │   │   └── ...
-│   │   └── ...
-│   └── ...
-└── summaries/
-    └── daily/
-        ├── {token}/
-        │   ├── {date}-summary.json          # EOD summary
-        │   └── latest.json                  # Latest summary
-        └── ...
+---
+
+## 🚀 Quick Start
+
+### 1. Get Token Stats
+```bash
+# Current stats for Kaspa across all exchanges
+curl http://localhost:8080/v1/ticker/kaspa
+
+# With 7-day lookback
+curl http://localhost:8080/v1/ticker/kaspa?range=7d
 ```
 
-## Data Format
+### 2. Get Chart Data
+```bash
+# Hourly OHLCV data for charting (7-day, 1h resolution)
+curl "http://localhost:8080/v1/ticker/kaspa/history?range=7d&resolution=1h"
+```
 
-### Raw Data File
+### 3. Explore the API
+Open the interactive docs at: **http://localhost:8080/swagger-ui**
+
+---
+
+## 📡 API Reference
+
+### Ticker API *(Recommended)*
+
+Simple endpoints for aggregated token data:
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /v1/ticker/{token}` | Current stats across all exchanges |
+| `GET /v1/ticker/{token}/history` | OHLCV data for charting |
+
+**Query Parameters:**
+
+| Parameter | Values | Default | Description |
+|-----------|--------|---------|-------------|
+| `range` | `today`, `7d`, `30d` | `today` / `7d` | Lookback period |
+| `resolution` | `1m`, `5m`, `1h`, `1d` | `1h` | Chart resolution (history only) |
+
+**Example Response:**
 ```json
 {
-  "timeframe": "24h",
   "token": "kaspa",
-  "exchange": "ascendex",
-  "resolution": "1m",
-  "count": 132,
-  "data": [
+  "timestamp": "2025-12-30T05:00:00Z",
+  "range": "today",
+  "exchanges": [
     {
-      "timestamp": 1766860574,
-      "last": 0.04477,
-      "bid": 0.0445,
-      "ask": 0.04484,
-      "high": 0.04512,
-      "low": 0.04214,
-      "volume": null,
-      "quoteVolume": 53620.27,
-      "change": 0,
-      "percentage": 0
+      "exchange": "ascendex",
+      "last": 0.04512,
+      "high": 0.04561,
+      "low": 0.04381,
+      "volume_24h": 60334.82,
+      "change_pct": 0.38
     }
-  ]
+  ],
+  "aggregate": {
+    "avg_price": 0.0453,
+    "total_volume_24h": 7931946.18,
+    "vwap": 0.0451,
+    "exchange_count": 24
+  }
 }
 ```
 
-### Daily Summary File
-```json
-{
-  "date": "2025-12-28",
-  "token": "kaspa",
-  "exchange": "ascendex",
-  "open": 0.04477,
-  "high": 0.04512,
-  "low": 0.04214,
-  "close": 0.04475,
-  "volume": 1234567.89,
-  "quoteVolume": 55123.45,
-  "change": -0.00002,
-  "percentage": -0.0447,
-  "trades": 1320,
-  "avgPrice": 0.04485,
-  "vwap": 0.04482
-}
+---
+
+### Content API *(Advanced)*
+
+Direct access to raw repository data files:
+
+```bash
+# List all tokens
+GET /v1/api/github/KaspaDev/Kaspa-Exchange-Data/data
+
+# List exchanges for a token
+GET /v1/api/github/KaspaDev/Kaspa-Exchange-Data/data/kaspa
+
+# Get specific data file
+GET /v1/api/github/KaspaDev/Kaspa-Exchange-Data/data/kaspa/ascendex/2025/12/2025-12-28.json
+
+# Aggregate with pagination
+GET /v1/api/github/.../data/kaspa/ascendex/2025/12?aggregate=true&limit=30
 ```
 
-## Accessing Data
+---
 
-### Via Kaspa Exchange Data API
+## 🏗️ Self-Hosting
+
+### Prerequisites
+- Docker & Docker Compose
+- GitHub Personal Access Token
+
+### Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/KaspaDev/Kaspa-Exchange-Data.git
+   cd Kaspa-Exchange-Data
+   ```
+
+2. **Configure environment**
+   ```bash
+   cp .env.sample .env
+   # Edit .env and add your GITHUB_TOKEN
+   ```
+
+3. **Start the services**
+   ```bash
+   docker compose up -d
+   ```
+
+4. **Verify**
+   ```bash
+   curl http://localhost:8080/health
+   # {"status":"ok","version":"0.1.0",...}
+   ```
+
+### Architecture
+
 ```
-http://localhost:8080/data/kaspa/ascendex/2025/12/2025-12-28.json
+┌─────────────────────────────────────────────────────────┐
+│                     Envoy Proxy (:8080)                 │
+│                    (Load Balancer)                      │
+└────────────────────────┬────────────────────────────────┘
+                         │
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
+   ┌────────┐       ┌────────┐       ┌────────┐
+   │ API #1 │       │ API #2 │       │ API #3 │
+   │ :3010  │       │ :3010  │       │ :3010  │
+   └────┬───┘       └────┬───┘       └────┬───┘
+        │                │                │
+        └────────────────┴────────────────┘
+                         │
+                    ┌────┴────┐
+                    │ Dragonfly│
+                    │ (Redis)  │
+                    │  :6379   │
+                    └──────────┘
 ```
 
-### Via Frontend API
+---
+
+## 📁 Data Format
+
+### Repository Structure
 ```
-GET /api/history/kaspa/ascendex?timeframe=24h
-GET /api/history/kaspa/ascendex?timeframe=7d
-GET /api/history/kaspa/ascendex?timeframe=30d
+data/
+└── {token}/
+    └── {exchange}/
+        └── {year}/
+            └── {month}/
+                ├── {date}.json       # Daily OHLC summary
+                └── {date}-raw.json   # Minute-by-minute data
 ```
 
-## Supported Tokens
+### Supported Tokens
 
-- **Kaspa** (KAS) - 119+ exchanges
-- **Nacho** - Multiple exchanges
-- **Slow** - Multiple exchanges
-- **TBDai** - Multiple exchanges
-- **Zeal** - MEXC, CoinEx
-- And many more KRC20 tokens...
+| Token | Exchanges | Symbol |
+|-------|-----------|--------|
+| Kaspa | 100+ | KAS |
+| Nacho | Multiple | NACHO |
+| Slow | ascendex, fameex | SLOW |
+| *...and more* | | |
 
-## Data Updates
+---
 
-- **Continuous Updates**: Data is committed every 5 minutes
-- **Daily Summaries**: Generated at end of day (EOD)
-- **Git Tags**: Created daily with format `eod-YYYY-MM-DD`
+## 🔧 Configuration
 
-## Version Control
+Configuration via `config.yaml`:
 
-All data is version-controlled in Git:
-- Full commit history for all changes
-- Daily tags for easy navigation
-- Complete audit trail
+```yaml
+server:
+  host: "0.0.0.0"
+  port: 3010
+  allowed_origins: "*"
 
-## Privacy
+allowed_repos:
+  - source: github
+    owner: KaspaDev
+    repo: Kaspa-Exchange-Data
+```
 
-This is a **public repository** containing exchange market data.
+Environment variables:
+- `GITHUB_TOKEN` - GitHub Personal Access Token (required)
+- `REDIS_URL` - Redis connection URL (default: `redis://dragonfly:6379`)
+- `RUST_LOG` - Log level (default: `info`)
 
-## License
+---
 
-MIT License - All rights reserved.
+## 📝 License
 
-## Contact
+MIT License - see [LICENSE](LICENSE) for details.
 
-Repository maintained by KaspaDev for exchange data storage and analysis.
+---
+
+## 🤝 Contributing
+
+Contributions welcome! Please read our [Code of Conduct](CODE_OF_CONDUCT.md) first.
+
+---
+
+<p align="center">
+  <strong>Built with ❤️ for the Kaspa ecosystem</strong>
+</p>

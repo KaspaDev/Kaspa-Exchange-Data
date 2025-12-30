@@ -51,7 +51,7 @@ mod infrastructure;
 
 use crate::api::routes::create_router;
 use crate::api::state::AppState;
-use crate::application::ContentService;
+use crate::application::{ContentService, TickerService};
 use crate::domain::RepoConfig;
 use crate::infrastructure::{GitHubRepository, RedisRepository};
 use anyhow::Context;
@@ -127,14 +127,30 @@ async fn main() -> anyhow::Result<()> {
     let github_repo = Arc::new(GitHubRepository::new(github_token));
     let redis_repo = Arc::new(RedisRepository::new(redis_url));
 
+    // Get default repo for ticker service (first allowed repo)
+    let default_repo = config
+        .allowed_repos
+        .first()
+        .cloned()
+        .expect("At least one allowed repo must be configured");
+
     // Application
     let content_service = Arc::new(ContentService::new(
-        github_repo,
-        redis_repo,
+        github_repo.clone(),
+        redis_repo.clone(),
         config.allowed_repos.clone(),
     ));
 
-    let state = AppState { content_service };
+    let ticker_service = Arc::new(TickerService::new(
+        github_repo,
+        redis_repo,
+        default_repo,
+    ));
+
+    let state = AppState {
+        content_service,
+        ticker_service,
+    };
 
     let app = create_router(state, config.server.allowed_origins.clone());
 
