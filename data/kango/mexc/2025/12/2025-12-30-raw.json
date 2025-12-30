@@ -3,7 +3,7 @@
   "token": "kango",
   "exchange": "mexc",
   "resolution": "1m",
-  "count": 7,
+  "count": 8,
   "data": [
     {
       "token": "Kango",
@@ -191,6 +191,33 @@
       "timestamp": 1767074343823,
       "datetime": "2025-12-30T05:59:03.823Z",
       "exchange_timestamp": "2025-12-30T05:59:06.718553",
+      "data_source": "official_exchange_api",
+      "exchange_id": "mexc"
+    },
+    {
+      "token": "Kango",
+      "exchange": "mexc",
+      "symbol": "KANGO/USDT",
+      "last": 1.59e-06,
+      "bid": 1.577e-06,
+      "ask": 1.621e-06,
+      "open": 1.9e-06,
+      "close": 1.59e-06,
+      "high": 1.904e-06,
+      "low": 1.571e-06,
+      "average": 1.745e-06,
+      "vwap": 1.69736071986e-06,
+      "previousClose": 1.9e-06,
+      "volume": null,
+      "baseVolume": 3516764937.88,
+      "quoteVolume": 5969.21866654,
+      "bidVolume": 21050057.72,
+      "askVolume": 12642578.65,
+      "change": -3.1e-07,
+      "percentage": -16.31,
+      "timestamp": 1767074501477,
+      "datetime": "2025-12-30T06:01:41.477Z",
+      "exchange_timestamp": "2025-12-30T06:01:41.720944",
       "data_source": "official_exchange_api",
       "exchange_id": "mexc"
     }
