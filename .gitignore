@@ -105,6 +105,11 @@ Cargo.lock
 **/*.rs.bk
 *.pdb
 
+# Docker volumes (but keep .gitkeep)
+docker-volumes/*
+!docker-volumes/.gitkeep
+!docker-volumes/*/.gitkeep
+
 # OS files
 .DS_Store
 Thumbs.db
