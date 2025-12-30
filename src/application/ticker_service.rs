@@ -9,7 +9,7 @@ use chrono::{Duration, NaiveDate, Utc};
 use futures::StreamExt;
 use serde::{Deserialize, Serialize};
 use std::sync::Arc;
-use tracing::{error, info, warn};
+use tracing::{info, warn};
 use utoipa::ToSchema;
 
 /// Response structure for ticker stats endpoint.

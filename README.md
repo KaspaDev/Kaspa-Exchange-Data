@@ -105,9 +105,15 @@ GET /v1/api/github/.../data/kaspa/ascendex/2025/12?aggregate=true&limit=30
 
 ## 🏗️ Self-Hosting
 
+> **⚠️ GitHub API Rate Limits:**
+> - **Without `GITHUB_TOKEN`**: 60 requests/hour (unauthenticated - works for public repos)
+> - **With `GITHUB_TOKEN`**: 5,000 requests/hour (authenticated - recommended for production)
+>
+> The API works without a token for public repositories, but you'll hit the lower rate limit quickly under load.
+
 ### Prerequisites
 - Docker & Docker Compose
-- GitHub Personal Access Token
+- *(Optional)* GitHub Personal Access Token (see rate limits above)
 
 ### Setup
 
@@ -117,10 +123,10 @@ GET /v1/api/github/.../data/kaspa/ascendex/2025/12?aggregate=true&limit=30
    cd Kaspa-Exchange-Data
    ```
 
-2. **Configure environment**
+2. **Configure environment** (optional)
    ```bash
    cp .env.sample .env
-   # Edit .env and add your GITHUB_TOKEN
+   # Optionally add GITHUB_TOKEN for higher rate limits (see below)
    ```
 
 3. **Start the services**
@@ -201,7 +207,10 @@ allowed_repos:
 ```
 
 Environment variables:
-- `GITHUB_TOKEN` - GitHub Personal Access Token (required)
+- `GITHUB_TOKEN` - GitHub Personal Access Token (**optional**)
+  - **Without token**: 60 requests/hour (unauthenticated - works for public repos)
+  - **With token**: 5,000 requests/hour (authenticated - recommended for production)
+  - The API works without a token for public repositories, but you'll have a much lower rate limit
 - `REDIS_URL` - Redis connection URL (default: `redis://dragonfly:6379`)
 - `RUST_LOG` - Log level (default: `info`)
 

@@ -27,7 +27,13 @@ See [architecture.md](architecture.md) for detailed diagrams.
 ### Prerequisites
 
 - Docker & Docker Compose
-- A GitHub Personal Access Token (Read Only)
+- *(Optional)* A GitHub Personal Access Token for higher rate limits
+
+> **⚠️ Rate Limits:**
+> - **Without `GITHUB_TOKEN`**: 60 requests/hour (unauthenticated - works for public repos)
+> - **With `GITHUB_TOKEN`**: 5,000 requests/hour (authenticated - recommended for production)
+>
+> The API works without a token for public repositories, but you'll hit the lower rate limit quickly.
 
 ### Configuration
 
@@ -36,6 +42,9 @@ Create a `.env` file in the root directory:
 ```bash
 GITHUB_USER=KaspaDev
 GITHUB_REPO=Kaspa-Exchange-Data
+# GITHUB_TOKEN is optional:
+# - Without it: 60 requests/hour (works for public repos)
+# - With it: 5,000 requests/hour (recommended for production)
 GITHUB_TOKEN=your_github_token_here
 ```
 

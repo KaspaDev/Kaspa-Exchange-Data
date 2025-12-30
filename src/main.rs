@@ -24,15 +24,17 @@
 //! # Configuration
 //!
 //! The API is configured via `config.yaml` and environment variables:
-//! - `GITHUB_TOKEN`: GitHub personal access token (required)
-//! - `REDIS_URL`: Redis con nection string (default: redis://localhost:6379)
+//! - `GITHUB_TOKEN`: GitHub personal access token (optional)
+//!   - If set: Uses authenticated requests (5,000 req/hour limit)
+//!   - If not set: Uses unauthenticated requests (60 req/hour limit for public repos)
+//! - `REDIS_URL`: Redis connection string (default: redis://localhost:6379)
 //! - `RUST_LOG`: Logging level (default: info)
 //!
 //! # Quick Start
 //!
 //! ```bash
-//! # Set environment variables
-//! export GITHUB_TOKEN="your_token_here"
+//! # Optional: Set environment variables for higher rate limits
+//! export GITHUB_TOKEN="your_token_here"  # Optional - works without it for public repos
 //! export REDIS_URL="redis://localhost:6379"
 //!
 //! # Run the server
@@ -102,8 +104,11 @@ fn default_allowed_origins() -> String {
 async fn main() -> anyhow::Result<()> {
     dotenvy::dotenv().ok();
 
-    if env::var("GITHUB_TOKEN").is_err() {
-        tracing::warn!("GITHUB_TOKEN not found in env, ensure .env is loaded or vars are set");
+    let github_token = env::var("GITHUB_TOKEN").ok();
+    if github_token.is_none() {
+        tracing::warn!("GITHUB_TOKEN not found in env - using unauthenticated requests (60 req/hour limit for public repos). For higher limits (5,000 req/hour), set GITHUB_TOKEN in .env");
+    } else {
+        tracing::info!("GITHUB_TOKEN found - using authenticated requests (5,000 req/hour limit)");
     }
 
     tracing_subscriber::registry()
@@ -119,8 +124,6 @@ async fn main() -> anyhow::Result<()> {
     let config: Config = serde_yaml::from_str(&config_content)
         .context("Failed to parse config.yaml - check YAML syntax and structure")?;
 
-    let github_token =
-        env::var("GITHUB_TOKEN").context("GITHUB_TOKEN environment variable must be set")?;
     let redis_url = env::var("REDIS_URL").ok();
 
     // Infrastructure

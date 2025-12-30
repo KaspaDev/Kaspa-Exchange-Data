@@ -57,8 +57,10 @@ use tracing::{info, warn};
 pub struct GitHubRepository {
     /// HTTP client configured with timeouts
     client: Client,
-    /// GitHub personal access token for authentication
-    token: String,
+    /// GitHub personal access token for authentication (optional)
+    /// If None, requests are made without authentication (60 req/hour limit for public repos)
+    /// If Some, requests use authentication (5,000 req/hour limit)
+    token: Option<String>,
 }
 
 impl GitHubRepository {
@@ -66,7 +68,9 @@ impl GitHubRepository {
     ///
     /// # Arguments
     ///
-    /// * `token` - GitHub personal access token for API authentication
+    /// * `token` - GitHub personal access token for API authentication (optional)
+    ///   - If `Some(token)`: Uses authenticated requests (5,000 req/hour limit)
+    ///   - If `None`: Uses unauthenticated requests (60 req/hour limit for public repos)
     ///
     /// # Configuration
     ///
@@ -80,10 +84,14 @@ impl GitHubRepository {
     /// ```
     /// use gatewayapi::infrastructure::GitHubRepository;
     ///
-    /// let token = std::env::var("GITHUB_TOKEN").expect("GITHUB_TOKEN not set");
+    /// // With token (recommended for higher rate limits)
+    /// let token = std::env::var("GITHUB_TOKEN").ok();
     /// let repo = GitHubRepository::new(token);
+    /// 
+    /// // Without token (works for public repos, but lower rate limit)
+    /// let repo = GitHubRepository::new(None);
     /// ```
-    pub fn new(token: String) -> Self {
+    pub fn new(token: Option<String>) -> Self {
         let client = Client::builder()
             .timeout(Duration::from_secs(30))
             .connect_timeout(Duration::from_secs(5))
@@ -240,12 +248,17 @@ impl ContentRepository for GitHubRepository {
 
         let resp = self
             .execute_with_retry(|| {
-                self.client
+                let mut request = self.client
                     .get(&url)
-                    .header("Authorization", format!("token {}", self.token))
                     .header("Accept", "application/vnd.github.v3+json")
-                    .header("User-Agent", "GitRows-API-Proxy")
-                    .send()
+                    .header("User-Agent", "GitRows-API-Proxy");
+                
+                // Add Authorization header only if token is provided
+                if let Some(ref token) = self.token {
+                    request = request.header("Authorization", format!("token {}", token));
+                }
+                
+                request.send()
             })
             .await?;
 
@@ -270,12 +283,17 @@ impl ContentRepository for GitHubRepository {
 
         let resp = self
             .execute_with_retry(|| {
-                self.client
+                let mut request = self.client
                     .get(&url)
-                    .header("Authorization", format!("token {}", self.token))
                     .header("Accept", "application/vnd.github.v3+json")
-                    .header("User-Agent", "GitRows-API-Proxy")
-                    .send()
+                    .header("User-Agent", "GitRows-API-Proxy");
+                
+                // Add Authorization header only if token is provided
+                if let Some(ref token) = self.token {
+                    request = request.header("Authorization", format!("token {}", token));
+                }
+                
+                request.send()
             })
             .await?;
 
@@ -290,12 +308,17 @@ impl ContentRepository for GitHubRepository {
     async fn get_raw_file(&self, url: &str) -> anyhow::Result<Value> {
         let resp = self
             .execute_with_retry(|| {
-                self.client
+                let mut request = self.client
                     .get(url)
-                    .header("Authorization", format!("token {}", self.token))
                     .header("Accept", "application/vnd.github.v3.raw")
-                    .header("User-Agent", "GitRows-API-Proxy")
-                    .send()
+                    .header("User-Agent", "GitRows-API-Proxy");
+                
+                // Add Authorization header only if token is provided
+                if let Some(ref token) = self.token {
+                    request = request.header("Authorization", format!("token {}", token));
+                }
+                
+                request.send()
             })
             .await?;
 
