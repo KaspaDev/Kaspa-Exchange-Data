@@ -7,10 +7,10 @@
 "quoteVolume":  null,
 "change":  0,
 "percentage":  0,
-"trades":  5,
+"trades":  10,
 "avgPrice":  0.042999999999999997,
 "vwap":  null,
 "timestamp":  1767398402930,
-"lastUpdate":  1767398524364,
+"lastUpdate":  1767398701349,
 "token":  "kaspa",
 "exchange":  "fmfwio"}
